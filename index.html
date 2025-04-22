@@ -6,6 +6,9 @@
   <title>Chun-Hua Tsai, Ph.D.</title>
   <style>
     body { font-family: 'Georgia', serif; margin: 2em auto; max-width: 960px; line-height: 1.6; color: #333; background: #fff; }
+    header, footer { text-align: center; margin-bottom: 2em; }
+    nav a { margin: 0 1em; text-decoration: none; color: #004080; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
     h1, h2 { color: #004080; border-bottom: 1px solid #ccc; padding-bottom: 0.3em; }
     h1 { font-size: 2.5em; }
     h2 { font-size: 1.5em; margin-top: 2em; }
@@ -17,13 +20,27 @@
     td { padding: 0.2em 0.5em; vertical-align: top; }
     .email, .website { word-break: break-word; }
     li + li { margin-top: 0.5em; }
+    .nav-anchor { scroll-margin-top: 80px; }
   </style>
 </head>
 <body>
 
-<h1>Chun-Hua Tsai, Ph.D.</h1>
+<header>
+  <h1>Chun-Hua Tsai, Ph.D.</h1>
+  <nav>
+    <a href="#personal">Personal</a>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#grants">Grants</a>
+    <a href="#advising">Advising</a>
+    <a href="#services">Services</a>
+    <a href="#talks">Talks</a>
+    <a href="#skills">Skills</a>
+  </nav>
+</header>
 
-<div class="section">
+<div class="section" id="personal">
   <h2>Personal Data</h2>
   <table>
     <tr>
@@ -52,42 +69,92 @@
 <div class="section">
   <h2>Appointments</h2>
   <ul>
-    <li><strong>Assistant Professor</strong>, 2021–Present<br>Department of Information Systems and Quantitative Analysis (ISQA), <a href="https://www.unomaha.edu/college-of-information-science-and-technology">College of Information Sciences and Technology</a>, University of Nebraska at Omaha</li>
-    <li><strong>Assistant Research Professor</strong>, 2019–2021<br><a href="https://ist.psu.edu/">College of Information Sciences and Technology</a>, The Pennsylvania State University<br>Mentor: Dr. John M. Carroll</li>
+    <li><strong>Assistant Professor</strong>, 2021–Present — University of Nebraska at Omaha</li>
+    <li><strong>Assistant Research Professor</strong>, 2019–2021 — The Pennsylvania State University</li>
   </ul>
 </div>
 
-<div class="section">
+<div class="section" id="education">
   <h2>Education</h2>
   <ul>
-    <li><strong>Ph.D. in Information Science</strong>, 2013–2019<br><a href="http://sci.pitt.edu/">School of Computing and Information</a>, University of Pittsburgh<br>Advisor: Dr. Peter Brusilovsky</li>
-    <li><strong>M.S. in Management Information Systems</strong>, 2007–2009<br><a href="http://www.mis2.nccu.edu.tw/?locale=en">Department of Management Information Systems</a>, National ChengChi University<br>Advisor: Dr. Jiann-Ming Yang</li>
-    <li><strong>Visiting Scholar</strong>, Spring 2009<br><a href="https://www.nhh.no/en/">Dept. of Business and Management Science</a>, NHH Norwegian School of Economics</li>
-    <li><strong>B.B.A. in Information Management</strong>, 2003–2007<br><a href="http://www.im.tku.edu.tw/en/">Department of Information Management</a>, Tamkang University</li>
+    <li><strong>Ph.D.</strong>, Information Science, University of Pittsburgh</li>
+    <li><strong>M.S.</strong>, Management Information Systems, National ChengChi University</li>
+    <li><strong>Visiting Scholar</strong>, NHH Norwegian School of Economics</li>
+    <li><strong>B.B.A.</strong>, Information Management, Tamkang University</li>
   </ul>
 </div>
 
-<div class="section">
-  <h2>Selected Journal Publications</h2>
+<div class="section" id="publications">
+  <h2>Selected Publications</h2>
   <ol>
-    <li>Gupta, S., Carroll, J. M., & <strong>Tsai, C. H.</strong> (2025). Distance Matters in Citizen-Based Water Quality Monitoring. <em>ACM on Human-Computer Interaction (CSCW)</em>.</li>
-    <li><strong>Tsai, C. H.</strong>, Huang, C., Chen, Y. C., Zendejas, E., Krafka, S., & Zendejas, J. (2024). Co-Design Smart Disaster Management Systems with Indigenous Communities. <em>Digital Government: Research and Practice</em>. <a href="https://doi.org/10.1145/3660643">DOI</a></li>
-    <li>You, Y., <strong>Tsai, C. H.</strong>, et al. (2023). Beyond Self-diagnosis: How a Chatbot-based Symptom Checker Should Respond. <em>ACM TOCHI</em>. <a href="https://doi.org/10.1145/358995">DOI</a></li>
-    <li>Gui, F., <strong>Tsai, C. H.</strong>, Vajda, A. & Carroll, J. M. (2022). Workout connections: investigating social interactions in online group exercise classes. <em>IJHCS</em>. <a href="https://doi.org/10.1016/j.ijhcs.2022.102870">DOI</a></li>
+    <li>Tsai, C.H., et al. (2024). Co-Design Smart Disaster Management Systems. <em>Digital Government: Research and Practice</em>.</li>
+    <li>Tsai, C.H., & Carroll, J.M. (2021). With Help from Afar. <em>CSCW</em>.</li>
+    <li>Tsai, C.H., & Brusilovsky, P. (2020). The Effects of Controllability. <em>UMUAI</em>.</li>
+    <!-- Add more as needed -->
   </ol>
 </div>
 
-<div class="section">
+<div class="section" id="teaching">
   <h2>Teaching Experience</h2>
   <ul>
-    <li><strong>ISQA 8310</strong>: Information Technology Infrastructure & Cloud (Graduate, Spring 2024/2025)</li>
-    <li><strong>ISQA 8016/4010</strong>: Business Intelligence (Graduate, Fall 2023/2024)</li>
-    <li><strong>ISQA 3310</strong>: Managing Database Environment (Undergraduate, Fall 2022/2024)</li>
-    <li><strong>ISQA 8380</strong>: Enterprise Architecture and Systems Integration (Graduate, Spring 2022–2025)</li>
-    <li><strong>IST 311</strong>: Object-Oriented Design and Software Applications, Penn State (Spring 2020/2021)</li>
-    <li><strong>INFSCI 2710</strong>: Database Management, University of Pittsburgh (2018–2019)</li>
+    <li>ISQA 8310: IT Infrastructure & Cloud</li>
+    <li>ISQA 8016/4010: Business Intelligence</li>
+    <li>INFSCI 2710: Database Management</li>
   </ul>
 </div>
+
+<div class="section" id="grants">
+  <h2>Grants</h2>
+  <ul>
+    <li>PI, Multimodal AI for Nutrition, AIM-AHEAD, $5,000, 2025</li>
+    <li>PI, Prenatal Nutrition via ML, IDeA-CTR, $30,000, 2025–2026</li>
+    <li>Co-PI, DASS Collaborative Framework, NSF, $749,232, 2023–2026</li>
+    <!-- Add more grants as needed -->
+  </ul>
+</div>
+
+<div class="section" id="advising">
+  <h2>Advising</h2>
+  <h3>PhD Students</h3>
+  <ul>
+    <li>Taranum Bano (2024–)</li>
+    <li>Md Ashaduzzaman (2024–)</li>
+  </ul>
+  <h3>Master's Theses</h3>
+  <ul>
+    <li>Bhavani Malisetty: LLMs & Privacy Policies (2024–2025)</li>
+    <li>Alex Borchers: SVM Image Classification (2022–2023)</li>
+  </ul>
+</div>
+
+<div class="section" id="services">
+  <h2>Professional Service</h2>
+  <ul>
+    <li>NSF Panel Reviewer (2025)</li>
+    <li>Program Committee: CHI, CSCW, UMAP, RecSys</li>
+    <li>Journal Reviewer: TOCHI, IJHCS, UMUAI, Nature Scientific Reports</li>
+  </ul>
+</div>
+
+<div class="section" id="talks">
+  <h2>Talks & Presentations</h2>
+  <ul>
+    <li>“AI System Accountability” — ASPA Annual Conf. (2024)</li>
+    <li>Panelist — Indigenous Futures: AI & Machine Learning (2025)</li>
+  </ul>
+</div>
+
+<div class="section" id="skills">
+  <h2>Computational Skills</h2>
+  <ul>
+    <li>Languages: JAVA, Python, PHP, SQL</li>
+    <li>Tools: R, JavaScript, Linux, System Virtualization</li>
+  </ul>
+</div>
+
+<footer>
+  <p>&copy; 2025 Chun-Hua Tsai | <a href="mailto:chunhuatsai@unomaha.edu">Contact Me</a></p>
+</footer>
 
 </body>
 </html>
