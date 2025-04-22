@@ -3,116 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chun-Hua Tsai | Academic Homepage</title>
+  <title>Chun-Hua Tsai, Ph.D.</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 2em;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin-top: 0.5em;
-    }
-    main {
-      max-width: 900px;
-      margin: 2em auto;
-      padding: 0 1em;
-    }
-    section {
-      margin-bottom: 2em;
-    }
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.3em;
-      color: #2c3e50;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      margin-bottom: 1em;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 2em;
-      background: #ecf0f1;
-      font-size: 0.9em;
-    }
+    body { font-family: 'Georgia', serif; margin: 2em auto; max-width: 960px; line-height: 1.6; color: #333; background: #fff; }
+    h1, h2 { color: #004080; border-bottom: 1px solid #ccc; padding-bottom: 0.3em; }
+    h1 { font-size: 2.5em; }
+    h2 { font-size: 1.5em; margin-top: 2em; }
+    ul, ol { margin-left: 1.5em; }
+    a { color: #0056a3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .section { margin-bottom: 2em; }
+    table { width: 100%; border-collapse: collapse; }
+    td { padding: 0.2em 0.5em; vertical-align: top; }
+    .email, .website { word-break: break-word; }
+    li + li { margin-top: 0.5em; }
   </style>
 </head>
-  <section>
-  <h2>Recent Publications</h2>
-  <ul id="publications-list"></ul>
-</section>
-
-<script>
-fetch('publications.json')
-  .then(response => response.json())
-  .then(data => {
-    const list = document.getElementById('publications-list');
-    data.forEach(pub => {
-      const item = document.createElement('li');
-      item.innerHTML = `<strong>${pub.title}</strong> (${pub.year})<br>
-        <em>${pub.authors}</em><br>
-        <a href=\"${pub.link}\" target=\"_blank\">${pub.venue}</a>`;
-      list.appendChild(item);
-    });
-  });
-</script>
 <body>
-  <header>
-    <h1>Chun-Hua Tsai, Ph.D.</h1>
-    <p>Assistant Professor | University of Nebraska at Omaha</p>
-    <p><a href="mailto:chunhuatsai@unomaha.edu" style="color:#f1c40f">chunhuatsai@unomaha.edu</a></p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Navigation</h2>
-      <ul>
-        <li><a href="cv.html">📄 Curriculum Vitae</a></li>
-        <li><a href="https://scholar.google.com/citations?user=Xy6NqPQAAAAJ&hl=en">🔬 Google Scholar</a></li>
-        <li><a href="https://orcid.org/0000-0001-XXXXX">🧬 ORCID Profile</a></li>
-        <li><a href="mailto:chunhuatsai@unomaha.edu">📧 Contact Me</a></li>
-      </ul>
-    </section>
+<h1>Chun-Hua Tsai, Ph.D.</h1>
 
-    <section>
-      <h2>About Me</h2>
-      <p>I am an Assistant Professor in the Department of Information Systems and Quantitative Analysis at the University of Nebraska at Omaha. My research focuses on Human-Computer Interaction (HCI), Explainable Artificial Intelligence (XAI), and Health Informatics.</p>
-    </section>
+<div class="section">
+  <h2>Personal Data</h2>
+  <table>
+    <tr>
+      <td>1110 S. 67th Street, 285A PKI</td>
+      <td class="email"><a href="mailto:chunhuatsai@unomaha.edu">chunhuatsai@unomaha.edu</a></td>
+    </tr>
+    <tr>
+      <td>Omaha, NE, 68182, USA</td>
+      <td class="website"><a href="http://www.cht77.com">http://www.cht77.com</a></td>
+    </tr>
+  </table>
+</div>
 
-    <section>
-      <h2>Recent Projects</h2>
-      <ul>
-        <li><strong>HopeCare:</strong> AI Chatbot for caregivers of children with HIE (2024)</li>
-        <li><strong>Accountable AI for Emergency Management:</strong> Multi-level governance design framework (2023–2026)</li>
-        <li><strong>Nutrition-AI:</strong> GPT-powered chatbot for prenatal dietary guidance (2022–2025)</li>
-      </ul>
-    </section>
-  </main>
+<div class="section">
+  <h2>Areas of Specialization</h2>
+  <ul>
+    <li>Human-Computer Interaction (HCI)</li>
+    <li>Health Informatics</li>
+    <li>Recommender Systems</li>
+    <li>Social Computing</li>
+    <li>Intelligent User Interfaces</li>
+    <li>Explainable Artificial Intelligence (XAI)</li>
+  </ul>
+</div>
 
-  <footer>
-    &copy; 2025 Chun-Hua Tsai | <a href="http://www.cht77.com">www.cht77.com</a>
-  </footer>
+<div class="section">
+  <h2>Appointments</h2>
+  <ul>
+    <li><strong>Assistant Professor</strong>, 2021–Present<br>Department of Information Systems and Quantitative Analysis (ISQA), <a href="https://www.unomaha.edu/college-of-information-science-and-technology">College of Information Sciences and Technology</a>, University of Nebraska at Omaha</li>
+    <li><strong>Assistant Research Professor</strong>, 2019–2021<br><a href="https://ist.psu.edu/">College of Information Sciences and Technology</a>, The Pennsylvania State University<br>Mentor: Dr. John M. Carroll</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Ph.D. in Information Science</strong>, 2013–2019<br><a href="http://sci.pitt.edu/">School of Computing and Information</a>, University of Pittsburgh<br>Advisor: Dr. Peter Brusilovsky</li>
+    <li><strong>M.S. in Management Information Systems</strong>, 2007–2009<br><a href="http://www.mis2.nccu.edu.tw/?locale=en">Department of Management Information Systems</a>, National ChengChi University<br>Advisor: Dr. Jiann-Ming Yang</li>
+    <li><strong>Visiting Scholar</strong>, Spring 2009<br><a href="https://www.nhh.no/en/">Dept. of Business and Management Science</a>, NHH Norwegian School of Economics</li>
+    <li><strong>B.B.A. in Information Management</strong>, 2003–2007<br><a href="http://www.im.tku.edu.tw/en/">Department of Information Management</a>, Tamkang University</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Selected Journal Publications</h2>
+  <ol>
+    <li>Gupta, S., Carroll, J. M., & <strong>Tsai, C. H.</strong> (2025). Distance Matters in Citizen-Based Water Quality Monitoring. <em>ACM on Human-Computer Interaction (CSCW)</em>.</li>
+    <li><strong>Tsai, C. H.</strong>, Huang, C., Chen, Y. C., Zendejas, E., Krafka, S., & Zendejas, J. (2024). Co-Design Smart Disaster Management Systems with Indigenous Communities. <em>Digital Government: Research and Practice</em>. <a href="https://doi.org/10.1145/3660643">DOI</a></li>
+    <li>You, Y., <strong>Tsai, C. H.</strong>, et al. (2023). Beyond Self-diagnosis: How a Chatbot-based Symptom Checker Should Respond. <em>ACM TOCHI</em>. <a href="https://doi.org/10.1145/358995">DOI</a></li>
+    <li>Gui, F., <strong>Tsai, C. H.</strong>, Vajda, A. & Carroll, J. M. (2022). Workout connections: investigating social interactions in online group exercise classes. <em>IJHCS</em>. <a href="https://doi.org/10.1016/j.ijhcs.2022.102870">DOI</a></li>
+  </ol>
+</div>
+
+<div class="section">
+  <h2>Teaching Experience</h2>
+  <ul>
+    <li><strong>ISQA 8310</strong>: Information Technology Infrastructure & Cloud (Graduate, Spring 2024/2025)</li>
+    <li><strong>ISQA 8016/4010</strong>: Business Intelligence (Graduate, Fall 2023/2024)</li>
+    <li><strong>ISQA 3310</strong>: Managing Database Environment (Undergraduate, Fall 2022/2024)</li>
+    <li><strong>ISQA 8380</strong>: Enterprise Architecture and Systems Integration (Graduate, Spring 2022–2025)</li>
+    <li><strong>IST 311</strong>: Object-Oriented Design and Software Applications, Penn State (Spring 2020/2021)</li>
+    <li><strong>INFSCI 2710</strong>: Database Management, University of Pittsburgh (2018–2019)</li>
+  </ul>
+</div>
+
 </body>
 </html>
