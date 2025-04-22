@@ -1,218 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chun-Hua Tsai, Ph.D.</title>
-  <style>
-    :root {
-      --primary: #003366;
-      --accent: #0077b6;
-      --text: #222;
-      --bg: #fdfdfd;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: 'Helvetica Neue', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: var(--primary);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    nav {
-      margin-top: 1rem;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: 600;
-      border-bottom: 2px solid transparent;
-    }
-    nav a:hover {
-      border-color: var(--accent);
-    }
-    main {
-      max-width: 960px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    section h2 {
-      color: var(--primary);
-      border-left: 4px solid var(--accent);
-      padding-left: 0.5rem;
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-    }
-    ul, ol {
-      margin-left: 1.5rem;
-    }
-    table {
-      width: 100%;
-      border-spacing: 0.5rem;
-    }
-    footer {
-      background: #eee;
-      padding: 1rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #555;
-    }
-    a {
-      color: var(--accent);
-    }
-    .email, .website { word-break: break-word; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chun-Hua Tsai, Ph.D. - Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<header>
-  <h1>Chun-Hua Tsai, Ph.D.</h1>
-  <nav>
-    <a href="#personal">Personal</a>
-    <a href="#education">Education</a>
-    <a href="#publications">Publications</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#grants">Grants</a>
-    <a href="#advising">Advising</a>
-    <a href="#services">Service</a>
-    <a href="#talks">Talks</a>
-    <a href="#skills">Skills</a>
-  </nav>
-</header>
-
-<main>
-  <section style="text-align: center; margin-bottom: 3rem;">
-    <img src="headshot.jpg" alt="Chun-Hua Tsai headshot" style="max-width: 180px; border-radius: 100px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 1rem;">
-    <p style="font-size: 1.1rem; color: #666;">Welcome to my academic site — here you will find my research, teaching, and service.</p>
-  </section>
-  <section id="personal">
-    <h2>Personal Data</h2>
-    <table>
-      <tr>
-        <td>1110 S. 67th Street, 285A PKI</td>
-        <td class="email"><a href="mailto:chunhuatsai@unomaha.edu">chunhuatsai@unomaha.edu</a></td>
-      </tr>
-      <tr>
-        <td>Omaha, NE, 68182, USA</td>
-        <td class="website"><a href="http://www.cht77.com">http://www.cht77.com</a></td>
-      </tr>
-    </table>
-  </section>
-
-  <section>
-    <h2>Areas of Specialization</h2>
-    <ul>
-      <li>Human-Computer Interaction (HCI)</li>
-      <li>Health Informatics</li>
-      <li>Recommender Systems</li>
-      <li>Social Computing</li>
-      <li>Intelligent User Interfaces</li>
-      <li>Explainable Artificial Intelligence (XAI)</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Appointments</h2>
-    <ul>
-      <li><strong>Assistant Professor</strong>, 2021–Present — University of Nebraska at Omaha</li>
-      <li><strong>Assistant Research Professor</strong>, 2019–2021 — The Pennsylvania State University</li>
-    </ul>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li>Ph.D., Information Science — University of Pittsburgh</li>
-      <li>M.S., Management Information Systems — National ChengChi University</li>
-      <li>Visiting Scholar — NHH Norwegian School of Economics</li>
-      <li>B.B.A., Information Management — Tamkang University</li>
-    </ul>
-  </section>
-
-  <section id="publications">
-    <h2>Selected Publications</h2>
-    <ol>
-      <li>Tsai, C.H., et al. (2024). Smart Disaster Management Systems. <em>Digital Government</em>.</li>
-      <li>Tsai, C.H., Carroll, J.M. (2021). With Help from Afar. <em>CSCW</em>.</li>
-      <li>Tsai, C.H., Brusilovsky, P. (2020). Controllability in Recommendations. <em>UMUAI</em>.</li>
-    </ol>
-  </section>
-
-  <section id="teaching">
-    <h2>Teaching Experience</h2>
-    <ul>
-      <li>ISQA 8310: IT Infrastructure & Cloud</li>
-      <li>ISQA 8016/4010: Business Intelligence</li>
-      <li>INFSCI 2710: Database Management</li>
-    </ul>
-  </section>
-
-  <section id="grants">
-    <h2>Grants</h2>
-    <ul>
-      <li>PI, Multimodal AI for Nutrition, AIM-AHEAD, $5,000</li>
-      <li>PI, Prenatal Nutrition ML, IDeA-CTR, $30,000</li>
-      <li>Co-PI, DASS Design Framework, NSF, $749,232</li>
-    </ul>
-  </section>
-
-  <section id="advising">
-    <h2>Academic Advising</h2>
-    <h3>PhD Students</h3>
-    <ul>
-      <li>Taranum Bano</li>
-      <li>Md Ashaduzzaman</li>
-    </ul>
-    <h3>Master’s Theses</h3>
-    <ul>
-      <li>Bhavani Malisetty – Privacy Policy LLM</li>
-      <li>Alex Borchers – SVM Image Classification</li>
-    </ul>
-  </section>
-
-  <section id="services">
-    <h2>Professional Services</h2>
-    <ul>
-      <li>NSF Panel Reviewer</li>
-      <li>Program Committee: CHI, CSCW, UMAP</li>
-      <li>Reviewer: TOCHI, IJHCS, Nature Scientific Reports</li>
-    </ul>
-  </section>
-
-  <section id="talks">
-    <h2>Invited Talks</h2>
-    <ul>
-      <li>AI System Accountability — ASPA 2024</li>
-      <li>Panel: Indigenous Computational Futures — 2025</li>
-    </ul>
-  </section>
-
-  <section id="skills">
-    <h2>Computational Skills</h2>
-    <ul>
-      <li>Languages: Java, Python, PHP, SQL, JavaScript</li>
-      <li>Systems: Linux, Ubuntu, Virtualization</li>
-    </ul>
-  </section>
-</main>
-
-<footer>
-  <p>&copy; 2025 Chun-Hua Tsai. Designed with ❤️ for academic excellence.</p>
-</footer>
-
+  <header>
+    <h1>Chun-Hua Tsai, Ph.D.</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="publications.html">Publications</a>
+      <a href="grants.html">Grants</a>
+      <a href="advising.html">Advising</a>
+      <a href="services.html">Service</a>
+      <a href="talks.html">Talks</a>
+      <a href="skills.html">Skills</a>
+    </nav>
+  </header>
+  <main>
+    <section style="text-align: center;">
+      <img src="headshot.jpg" alt="Headshot" style="max-width: 180px; border-radius: 100px;" />
+      <p>Welcome to my academic site — here you will find my research, teaching, and service.</p>
+    </section>
+    <section>
+      <h2>Personal Data</h2>
+      <p>Email: <a href="mailto:chunhuatsai@unomaha.edu">chunhuatsai@unomaha.edu</a></p>
+      <p>Website: <a href="http://www.cht77.com">http://www.cht77.com</a></p>
+    </section>
+    <section>
+      <h2>Areas of Specialization</h2>
+      <ul>
+        <li>Human-Computer Interaction (HCI)</li>
+        <li>Health Informatics</li>
+        <li>Recommender Systems</li>
+        <li>Social Computing</li>
+        <li>Intelligent User Interfaces</li>
+        <li>Explainable Artificial Intelligence (XAI)</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Chun-Hua Tsai</p>
+  </footer>
 </body>
 </html>
