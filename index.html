@@ -59,6 +59,25 @@
     }
   </style>
 </head>
+  <section>
+  <h2>Recent Publications</h2>
+  <ul id="publications-list"></ul>
+</section>
+
+<script>
+fetch('publications.json')
+  .then(response => response.json())
+  .then(data => {
+    const list = document.getElementById('publications-list');
+    data.forEach(pub => {
+      const item = document.createElement('li');
+      item.innerHTML = `<strong>${pub.title}</strong> (${pub.year})<br>
+        <em>${pub.authors}</em><br>
+        <a href=\"${pub.link}\" target=\"_blank\">${pub.venue}</a>`;
+      list.appendChild(item);
+    });
+  });
+</script>
 <body>
   <header>
     <h1>Chun-Hua Tsai, Ph.D.</h1>
