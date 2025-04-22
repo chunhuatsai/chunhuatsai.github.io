@@ -33,11 +33,33 @@
     .contact a {
       display: block;
     }
+    nav a.nav-link.active {
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
 
-<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">C.H. Tsai</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#grants">Grants</a></li>
+        <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+        <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="about">
   <img src="headshot.jpg" alt="Chun-Hua Tsai" class="headshot mb-3">
   <h1>Chun-Hua Tsai, Ph.D.</h1>
   <p class="lead">Assistant Professor, University of Nebraska at Omaha</p>
@@ -56,25 +78,7 @@
        Social Computing, Intelligent User Interfaces, Explainable Artificial Intelligence (XAI)</p>
   </section>
 
-  <section class="section">
-    <h2>Appointments</h2>
-    <ul>
-      <li><strong>Assistant Professor</strong>, 2021-Present, University of Nebraska at Omaha</li>
-      <li><strong>Assistant Research Professor</strong>, 2019-2021, Pennsylvania State University</li>
-    </ul>
-  </section>
-
-  <section class="section">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Ph.D. in Information Science</strong>, University of Pittsburgh</li>
-      <li><strong>M.S. in Management Information Systems</strong>, National ChengChi University</li>
-      <li><strong>Visiting Scholar</strong>, NHH Norwegian School of Economics</li>
-      <li><strong>BBA in Information Management</strong>, Tamkang University</li>
-    </ul>
-  </section>
-
-  <section class="section">
+  <section class="section" id="publications">
     <h2>Selected Publications</h2>
     <ul>
       <li><strong>2025:</strong> Distance Matters in Citizen-Based Water Quality Monitoring, ACM CSCW (to appear)</li>
@@ -84,7 +88,7 @@
     </ul>
   </section>
 
-  <section class="section">
+  <section class="section" id="grants">
     <h2>Grants & Fellowships</h2>
     <ul>
       <li>AIM-AHEAD Workshop Award, $5,000 (2025)</li>
@@ -93,7 +97,7 @@
     </ul>
   </section>
 
-  <section class="section">
+  <section class="section" id="teaching">
     <h2>Teaching</h2>
     <ul>
       <li>ISQA 8016/4010: Business Intelligence</li>
@@ -103,7 +107,7 @@
     </ul>
   </section>
 
-  <section class="section">
+  <section class="section" id="service">
     <h2>Professional Service</h2>
     <ul>
       <li>Reviewer, ACM CHI, CSCW, TOCHI, IJHCS</li>
@@ -112,7 +116,7 @@
     </ul>
   </section>
 
-  <section class="section">
+  <section class="section" id="awards">
     <h2>Honors & Awards</h2>
     <ul>
       <li>Best Paper, ACM Learning @ Scale, 2022</li>
@@ -126,6 +130,8 @@
 <footer class="text-center py-4 bg-light">
   <small>Last Updated: April 2025 | &copy; Chun-Hua Tsai</small>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
