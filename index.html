@@ -5,22 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chun-Hua Tsai, Ph.D.</title>
   <style>
-    body { font-family: 'Georgia', serif; margin: 2em auto; max-width: 960px; line-height: 1.6; color: #333; background: #fff; }
-    header, footer { text-align: center; margin-bottom: 2em; }
-    nav a { margin: 0 1em; text-decoration: none; color: #004080; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    h1, h2 { color: #004080; border-bottom: 1px solid #ccc; padding-bottom: 0.3em; }
-    h1 { font-size: 2.5em; }
-    h2 { font-size: 1.5em; margin-top: 2em; }
-    ul, ol { margin-left: 1.5em; }
-    a { color: #0056a3; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .section { margin-bottom: 2em; }
-    table { width: 100%; border-collapse: collapse; }
-    td { padding: 0.2em 0.5em; vertical-align: top; }
+    :root {
+      --primary: #003366;
+      --accent: #0077b6;
+      --text: #222;
+      --bg: #fdfdfd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+    }
+    nav a:hover {
+      border-color: var(--accent);
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      color: var(--primary);
+      border-left: 4px solid var(--accent);
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+    table {
+      width: 100%;
+      border-spacing: 0.5rem;
+    }
+    footer {
+      background: #eee;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    a {
+      color: var(--accent);
+    }
     .email, .website { word-break: break-word; }
-    li + li { margin-top: 0.5em; }
-    .nav-anchor { scroll-margin-top: 80px; }
   </style>
 </head>
 <body>
@@ -34,126 +88,130 @@
     <a href="#teaching">Teaching</a>
     <a href="#grants">Grants</a>
     <a href="#advising">Advising</a>
-    <a href="#services">Services</a>
+    <a href="#services">Service</a>
     <a href="#talks">Talks</a>
     <a href="#skills">Skills</a>
   </nav>
 </header>
 
-<div class="section" id="personal">
-  <h2>Personal Data</h2>
-  <table>
-    <tr>
-      <td>1110 S. 67th Street, 285A PKI</td>
-      <td class="email"><a href="mailto:chunhuatsai@unomaha.edu">chunhuatsai@unomaha.edu</a></td>
-    </tr>
-    <tr>
-      <td>Omaha, NE, 68182, USA</td>
-      <td class="website"><a href="http://www.cht77.com">http://www.cht77.com</a></td>
-    </tr>
-  </table>
-</div>
+<main>
+  <section style="text-align: center; margin-bottom: 3rem;">
+    <img src="headshot.jpg" alt="Chun-Hua Tsai headshot" style="max-width: 180px; border-radius: 100px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 1rem;">
+    <p style="font-size: 1.1rem; color: #666;">Welcome to my academic site — here you will find my research, teaching, and service.</p>
+  </section>
+  <section id="personal">
+    <h2>Personal Data</h2>
+    <table>
+      <tr>
+        <td>1110 S. 67th Street, 285A PKI</td>
+        <td class="email"><a href="mailto:chunhuatsai@unomaha.edu">chunhuatsai@unomaha.edu</a></td>
+      </tr>
+      <tr>
+        <td>Omaha, NE, 68182, USA</td>
+        <td class="website"><a href="http://www.cht77.com">http://www.cht77.com</a></td>
+      </tr>
+    </table>
+  </section>
 
-<div class="section">
-  <h2>Areas of Specialization</h2>
-  <ul>
-    <li>Human-Computer Interaction (HCI)</li>
-    <li>Health Informatics</li>
-    <li>Recommender Systems</li>
-    <li>Social Computing</li>
-    <li>Intelligent User Interfaces</li>
-    <li>Explainable Artificial Intelligence (XAI)</li>
-  </ul>
-</div>
+  <section>
+    <h2>Areas of Specialization</h2>
+    <ul>
+      <li>Human-Computer Interaction (HCI)</li>
+      <li>Health Informatics</li>
+      <li>Recommender Systems</li>
+      <li>Social Computing</li>
+      <li>Intelligent User Interfaces</li>
+      <li>Explainable Artificial Intelligence (XAI)</li>
+    </ul>
+  </section>
 
-<div class="section">
-  <h2>Appointments</h2>
-  <ul>
-    <li><strong>Assistant Professor</strong>, 2021–Present — University of Nebraska at Omaha</li>
-    <li><strong>Assistant Research Professor</strong>, 2019–2021 — The Pennsylvania State University</li>
-  </ul>
-</div>
+  <section>
+    <h2>Appointments</h2>
+    <ul>
+      <li><strong>Assistant Professor</strong>, 2021–Present — University of Nebraska at Omaha</li>
+      <li><strong>Assistant Research Professor</strong>, 2019–2021 — The Pennsylvania State University</li>
+    </ul>
+  </section>
 
-<div class="section" id="education">
-  <h2>Education</h2>
-  <ul>
-    <li><strong>Ph.D.</strong>, Information Science, University of Pittsburgh</li>
-    <li><strong>M.S.</strong>, Management Information Systems, National ChengChi University</li>
-    <li><strong>Visiting Scholar</strong>, NHH Norwegian School of Economics</li>
-    <li><strong>B.B.A.</strong>, Information Management, Tamkang University</li>
-  </ul>
-</div>
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Ph.D., Information Science — University of Pittsburgh</li>
+      <li>M.S., Management Information Systems — National ChengChi University</li>
+      <li>Visiting Scholar — NHH Norwegian School of Economics</li>
+      <li>B.B.A., Information Management — Tamkang University</li>
+    </ul>
+  </section>
 
-<div class="section" id="publications">
-  <h2>Selected Publications</h2>
-  <ol>
-    <li>Tsai, C.H., et al. (2024). Co-Design Smart Disaster Management Systems. <em>Digital Government: Research and Practice</em>.</li>
-    <li>Tsai, C.H., & Carroll, J.M. (2021). With Help from Afar. <em>CSCW</em>.</li>
-    <li>Tsai, C.H., & Brusilovsky, P. (2020). The Effects of Controllability. <em>UMUAI</em>.</li>
-    <!-- Add more as needed -->
-  </ol>
-</div>
+  <section id="publications">
+    <h2>Selected Publications</h2>
+    <ol>
+      <li>Tsai, C.H., et al. (2024). Smart Disaster Management Systems. <em>Digital Government</em>.</li>
+      <li>Tsai, C.H., Carroll, J.M. (2021). With Help from Afar. <em>CSCW</em>.</li>
+      <li>Tsai, C.H., Brusilovsky, P. (2020). Controllability in Recommendations. <em>UMUAI</em>.</li>
+    </ol>
+  </section>
 
-<div class="section" id="teaching">
-  <h2>Teaching Experience</h2>
-  <ul>
-    <li>ISQA 8310: IT Infrastructure & Cloud</li>
-    <li>ISQA 8016/4010: Business Intelligence</li>
-    <li>INFSCI 2710: Database Management</li>
-  </ul>
-</div>
+  <section id="teaching">
+    <h2>Teaching Experience</h2>
+    <ul>
+      <li>ISQA 8310: IT Infrastructure & Cloud</li>
+      <li>ISQA 8016/4010: Business Intelligence</li>
+      <li>INFSCI 2710: Database Management</li>
+    </ul>
+  </section>
 
-<div class="section" id="grants">
-  <h2>Grants</h2>
-  <ul>
-    <li>PI, Multimodal AI for Nutrition, AIM-AHEAD, $5,000, 2025</li>
-    <li>PI, Prenatal Nutrition via ML, IDeA-CTR, $30,000, 2025–2026</li>
-    <li>Co-PI, DASS Collaborative Framework, NSF, $749,232, 2023–2026</li>
-    <!-- Add more grants as needed -->
-  </ul>
-</div>
+  <section id="grants">
+    <h2>Grants</h2>
+    <ul>
+      <li>PI, Multimodal AI for Nutrition, AIM-AHEAD, $5,000</li>
+      <li>PI, Prenatal Nutrition ML, IDeA-CTR, $30,000</li>
+      <li>Co-PI, DASS Design Framework, NSF, $749,232</li>
+    </ul>
+  </section>
 
-<div class="section" id="advising">
-  <h2>Advising</h2>
-  <h3>PhD Students</h3>
-  <ul>
-    <li>Taranum Bano (2024–)</li>
-    <li>Md Ashaduzzaman (2024–)</li>
-  </ul>
-  <h3>Master's Theses</h3>
-  <ul>
-    <li>Bhavani Malisetty: LLMs & Privacy Policies (2024–2025)</li>
-    <li>Alex Borchers: SVM Image Classification (2022–2023)</li>
-  </ul>
-</div>
+  <section id="advising">
+    <h2>Academic Advising</h2>
+    <h3>PhD Students</h3>
+    <ul>
+      <li>Taranum Bano</li>
+      <li>Md Ashaduzzaman</li>
+    </ul>
+    <h3>Master’s Theses</h3>
+    <ul>
+      <li>Bhavani Malisetty – Privacy Policy LLM</li>
+      <li>Alex Borchers – SVM Image Classification</li>
+    </ul>
+  </section>
 
-<div class="section" id="services">
-  <h2>Professional Service</h2>
-  <ul>
-    <li>NSF Panel Reviewer (2025)</li>
-    <li>Program Committee: CHI, CSCW, UMAP, RecSys</li>
-    <li>Journal Reviewer: TOCHI, IJHCS, UMUAI, Nature Scientific Reports</li>
-  </ul>
-</div>
+  <section id="services">
+    <h2>Professional Services</h2>
+    <ul>
+      <li>NSF Panel Reviewer</li>
+      <li>Program Committee: CHI, CSCW, UMAP</li>
+      <li>Reviewer: TOCHI, IJHCS, Nature Scientific Reports</li>
+    </ul>
+  </section>
 
-<div class="section" id="talks">
-  <h2>Talks & Presentations</h2>
-  <ul>
-    <li>“AI System Accountability” — ASPA Annual Conf. (2024)</li>
-    <li>Panelist — Indigenous Futures: AI & Machine Learning (2025)</li>
-  </ul>
-</div>
+  <section id="talks">
+    <h2>Invited Talks</h2>
+    <ul>
+      <li>AI System Accountability — ASPA 2024</li>
+      <li>Panel: Indigenous Computational Futures — 2025</li>
+    </ul>
+  </section>
 
-<div class="section" id="skills">
-  <h2>Computational Skills</h2>
-  <ul>
-    <li>Languages: JAVA, Python, PHP, SQL</li>
-    <li>Tools: R, JavaScript, Linux, System Virtualization</li>
-  </ul>
-</div>
+  <section id="skills">
+    <h2>Computational Skills</h2>
+    <ul>
+      <li>Languages: Java, Python, PHP, SQL, JavaScript</li>
+      <li>Systems: Linux, Ubuntu, Virtualization</li>
+    </ul>
+  </section>
+</main>
 
 <footer>
-  <p>&copy; 2025 Chun-Hua Tsai | <a href="mailto:chunhuatsai@unomaha.edu">Contact Me</a></p>
+  <p>&copy; 2025 Chun-Hua Tsai. Designed with ❤️ for academic excellence.</p>
 </footer>
 
 </body>
