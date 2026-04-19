@@ -1,104 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chun-Hua Tsai, Ph.D.</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-    }
-    header {
-      background: #f5f5f5;
-      padding: 2rem;
-      text-align: center;
-    }
-    .headshot {
-      max-width: 160px;
-      border-radius: 50%;
-    }
-    .section {
-      padding: 2rem 1rem;
-    }
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
-      margin-top: 2rem;
-    }
-    .container ul {
-      padding-left: 1.2rem;
-    }
-    .contact a {
-      display: block;
-    }
-    nav a.nav-link.active {
-      font-weight: bold;
-    }
-  </style>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J9QFTQDJYN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J9QFTQDJYN');
-</script>
-</head>
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Chun-Hua Tsai</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+---
+layout: default
+title: "Chun-Hua Tsai, Ph.D."
+permalink: /
+---
 
 <header id="about">
   <div class="container py-4">
     <div class="row align-items-center justify-content-center text-center">
       <div class="col-md-3 mb-3 mb-md-0">
-        <img src="headshot.jpg" alt="Chun-Hua Tsai" class="headshot img-fluid" style="max-width: 220px;">
+        <img src="{{ '/headshot.jpg' | relative_url }}" alt="Chun-Hua Tsai" class="headshot img-fluid">
       </div>
       <div class="col-md-9">
         <h1 class="mb-2">Chun-Hua Tsai, Ph.D.</h1>
         <p class="lead mb-2">Assistant Professor in the Department of Information Systems and Quantitative Analysis (ISQA)</p>
-        <p class="lead">College of Information Science & Technology, University of Nebraska at Omaha</p>
+        <p class="lead">College of Information Science &amp; Technology, University of Nebraska at Omaha</p>
         <div class="d-flex flex-row flex-wrap justify-content-center align-items-center gap-3 mt-3">
-          <a href="https://x.com/chunhuatsai" target="_blank" title="Twitter">
+          <a href="https://x.com/chunhuatsai" target="_blank" rel="noopener" title="Twitter">
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" width="28">
           </a>
-          <a href="https://www.linkedin.com/in/chun-hua-tsai-00696091/" target="_blank" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/chun-hua-tsai-00696091/" target="_blank" rel="noopener" title="LinkedIn">
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="28">
           </a>
-          <a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&hl=en" target="_blank" title="Google Scholar">
+          <a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar">
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar" width="28">
           </a>
-          <a href="https://dblp.org/pid/147/2621.html" target="_blank" title="DBLP">
+          <a href="https://dblp.org/pid/147/2621.html" target="_blank" rel="noopener" title="DBLP">
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dblp.svg" alt="DBLP" width="28">
           </a>
-          <a href="https://digitalcommons.unomaha.edu/do/search/?q=bp_author_id%3A%2203f98e54-45c7-435d-84e5-071f509ed686%22%20OR%20(author%3A%22Chun-Hua%20Tsai%22%20AND%20-bp_author_id%3A%5B*%20TO%20*%5D)&start=0&context=1823872&sort=date_desc&facet=#query-results" target="_blank" title="DigitalCommons@UNO">
+          <a href="https://digitalcommons.unomaha.edu/do/search/?q=bp_author_id%3A%2203f98e54-45c7-435d-84e5-071f509ed686%22%20OR%20(author%3A%22Chun-Hua%20Tsai%22%20AND%20-bp_author_id%3A%5B*%20TO%20*%5D)&amp;start=0&amp;context=1823872&amp;sort=date_desc&amp;facet=#query-results" target="_blank" rel="noopener" title="DigitalCommons@UNO">
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/openaccess.svg" alt="DigitalCommons@UNO" width="28">
           </a>
-          <a href="https://www.researchgate.net/profile/Chunhua-Tsai" target="_blank" title="ResearchGate">
+          <a href="https://www.researchgate.net/profile/Chunhua-Tsai" target="_blank" rel="noopener" title="ResearchGate">
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/researchgate.svg" alt="ResearchGate" width="28">
           </a>
         </div>
         <div class="contact mt-3">
           <p class="mb-1">1110 S. 67th Street, 285A PKI, Omaha, NE 68182, USA</p>
-          Office Phone: 402.554.2380
+          <p class="mb-1">Office Phone: 402.554.2380</p>
           <a href="mailto:chunhuatsai@unomaha.edu">chunhuatsai@unomaha.edu</a>
-          <a href="https://www.cht77.com" target="_blank">https://www.cht77.com</a>
+          <a href="https://www.cht77.com" target="_blank" rel="noopener">https://www.cht77.com</a>
         </div>
       </div>
     </div>
@@ -106,40 +46,37 @@
 </header>
 
 <main class="container">
-
   <section class="section">
     <h2>Bio</h2>
-    <p>I am an Assistant Professor in the Department of Information Systems and Quantitative Analysis (ISQA) at the College of Information Science & Technology, University of Nebraska at Omaha. Before joining UNO, I served as an Assistant Research Professor in the College of Information Sciences and Technology at Penn State University. I earned my Ph.D. from the University of Pittsburgh in 2019. </p>
+    <p>I am an Assistant Professor in the Department of Information Systems and Quantitative Analysis (ISQA) at the College of Information Science &amp; Technology, University of Nebraska at Omaha. Before joining UNO, I served as an Assistant Research Professor in the College of Information Sciences and Technology at Penn State University. I earned my Ph.D. from the University of Pittsburgh in 2019.</p>
 
-    <p>My research agenda is centered on advancing both our understanding of—and our ability to design—sociotechnical systems by applying methodologies from Human-Computer Interaction (HCI) and Human-Centered Computing (HCC). Positioned at the intersection of HCI, Intelligent User Interfaces (IUI), and Artificial Intelligence (AI), I focus on creating AI-driven systems that are fair, trustworthy, and transparent. To achieve this, I adopt mixed quantitative and qualitative methods—combining large-scale data analysis with narrative interviews, thematic analysis, and content analysis—to capture users’ needs, behaviors, perceptions, and practices across diverse contexts such as recommender systems, educational platforms, health-care technologies, and social media communities.</p>
-    <li><a href="Professional_CV.pdf" target="_blank">My Curriculum Vitae (CV)</a></li>
+    <p>My research agenda is centered on advancing both our understanding of and our ability to design sociotechnical systems by applying methodologies from Human-Computer Interaction (HCI) and Human-Centered Computing (HCC). Positioned at the intersection of HCI, Intelligent User Interfaces (IUI), and Artificial Intelligence (AI), I focus on creating AI-driven systems that are fair, trustworthy, and transparent. To achieve this, I adopt mixed quantitative and qualitative methods, combining large-scale data analysis with narrative interviews, thematic analysis, and content analysis to capture users' needs, behaviors, perceptions, and practices across diverse contexts such as recommender systems, educational platforms, health-care technologies, and social media communities.</p>
+
+    <p><a href="{{ '/Professional_CV.pdf' | relative_url }}" target="_blank" rel="noopener">My Curriculum Vitae (CV)</a></p>
   </section>
 
   <section class="section" id="publications">
     <h2>Publications</h2>
+    <p>I publish in top venues in Human-Computer Interaction, AI, and digital government, including TOCHI, TiiS, IJHCS, CSCW, CHI, and DG.O. My work spans journal articles, conference papers, workshops, and book chapters, focusing on explainable AI, social recommender systems, Gen-AI healthcare systems, and inclusive system design.</p>
     <ul>
-      <p>I publish in top venues in Human-Computer Interaction, AI, and digital government, including TOCHI, TiiS, IJHCS, CSCW, CHI, and DG.O. My work spans journal articles, conference papers, workshops, and book chapters, focusing on explainable AI, social recommender systems, Gen-AI healthcare systems, and inclusive system design.  </p>
-      <li><a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&hl=en" target="_blank">Google Scholar (full list)</a></li>
-      <li><a href="https://digitalcommons.unomaha.edu/do/search/?q=bp_author_id%3A%2203f98e54-45c7-435d-84e5-071f509ed686%22%20OR%20(author%3A%22Chun-Hua%20Tsai%22%20AND%20-bp_author_id%3A%5B*%20TO%20*%5D)&start=0&context=1823872&sort=date_desc&facet=#query-results" target="_blank">DigitalCommons@UNO (archival full-text papers)</a></li>
+      <li><a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar (full list)</a></li>
+      <li><a href="https://digitalcommons.unomaha.edu/do/search/?q=bp_author_id%3A%2203f98e54-45c7-435d-84e5-071f509ed686%22%20OR%20(author%3A%22Chun-Hua%20Tsai%22%20AND%20-bp_author_id%3A%5B*%20TO%20*%5D)&amp;start=0&amp;context=1823872&amp;sort=date_desc&amp;facet=#query-results" target="_blank" rel="noopener">DigitalCommons@UNO (archival full-text papers)</a></li>
     </ul>
   </section>
 
+  <section class="section" id="blog-preview">
+    <h2>Research Blog</h2>
+    <p>Short reflections on HCI, human-centered AI, sociotechnical systems, research methods, and the questions that emerge between projects.</p>
 
+    {% assign latest_post = site.posts | first %}
+    {% if latest_post %}
+      <p class="latest-post">
+        Latest post:
+        <a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a>
+        <span class="post-meta">({{ latest_post.date | date: "%B %-d, %Y" }})</span>
+      </p>
+    {% endif %}
+
+    <p><a class="btn btn-outline-primary" href="{{ '/blog/' | relative_url }}">Read the blog</a></p>
+  </section>
 </main>
-
-<footer class="text-center py-4 bg-light">
-  <small>Last Updated: April 2025 | &copy; Chun-Hua Tsai</small>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
- window.difyChatbotConfig = {
-  token: 'u2lVGOywtbskHoUW',
-  baseUrl: 'https://s1.cht77.com'
- }
-</script>
-
-  
-</body>
-</html>

@@ -1,0 +1,32 @@
+---
+layout: default
+title: "Research Blog"
+permalink: /blog/
+---
+
+<main class="container">
+  <section class="section">
+    <h1>Research Blog</h1>
+    <p>Short essays, working notes, and reflections on human-centered AI, sociotechnical systems, HCI methods, and research practice.</p>
+
+    {% if site.posts.size > 0 %}
+      <div class="post-list">
+        {% for post in site.posts %}
+          <article class="post-list-item">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p class="post-meta">
+              {{ post.date | date: "%B %-d, %Y" }}
+              {% if post.categories %}
+                · {{ post.categories | join: ", " }}
+              {% endif %}
+            </p>
+            {{ post.excerpt }}
+            <p><a href="{{ post.url | relative_url }}">Read more</a></p>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No posts yet.</p>
+    {% endif %}
+  </section>
+</main>

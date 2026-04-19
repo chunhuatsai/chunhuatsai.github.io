@@ -1,0 +1,27 @@
+title: "Chun-Hua Tsai"
+description: "Research notes and professional updates from Chun-Hua Tsai."
+url: "https://chunhuatsai.github.io"
+baseurl: ""
+lang: "en"
+timezone: "America/Chicago"
+google_analytics: "G-J9QFTQDJYN"
+
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
