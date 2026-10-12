@@ -133,3 +133,11 @@ footer { color:var(--muted); font-size:.85rem; }
  .publication-filters .filter-reset { grid-column:1 / -1; justify-self:end; min-height:44px; }
 }
 @media (prefers-reduced-motion:reduce) { .publication-filters input,.publication-filters select { transition:none; } }
+
+/* Distinguish the three research directions with restrained color washes. */
+.research-direction { padding:2rem!important; margin:1.5rem 0; border:1px solid var(--line); border-left:4px solid var(--direction-accent); border-radius:12px; }
+.research-direction-1 { background:#eef6f8; --direction-accent:#175d68; }
+.research-direction-2 { background:#f2f5eb; --direction-accent:#526a32; }
+.research-direction-3 { background:#f6f0f8; --direction-accent:#705080; }
+.research-direction .eyebrow,.research-direction .publication-venue { color:var(--direction-accent); }
+@media (max-width:767px) { .research-direction { padding:1.25rem!important; } }
