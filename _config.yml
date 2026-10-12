@@ -7,7 +7,7 @@ lang: "en"
 timezone: "America/Chicago"
 google_analytics: "G-J9QFTQDJYN"
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 
 defaults:
   - scope:
