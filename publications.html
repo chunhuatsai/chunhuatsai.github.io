@@ -1,0 +1,43 @@
+---
+layout: default
+title: "Publications & Paper Archive"
+permalink: /publications/
+description: "Publications by Chun-Hua Tsai, with archived PDFs of journal articles, conference papers, workshops, books, and theses."
+---
+<main class="container reading-page" id="main-content">
+  <section class="section">
+    <p class="eyebrow">Research archive</p>
+    <h1>Publications &amp; Papers</h1>
+    <p>Research on human-centered AI, health informatics, recommender systems, and community collaboration. Browse by publication type and download the archived PDFs below.</p>
+    <p class="post-meta">{{ site.data.publications.size }} publications · Versions may differ from the published record.</p>
+    <p><a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a> · <a href="https://dblp.org/pid/147/2621.html" target="_blank" rel="noopener">DBLP ↗</a> · <a href="{{ '/Professional_CV.pdf' | relative_url }}">Full CV (PDF)</a></p>
+    <nav class="archive-nav" aria-label="Publication categories">
+      <a href="#journals">Journals</a><a href="#conferences">Conferences</a><a href="#workshops">Workshops</a><a href="#posters">Posters &amp; abstracts</a><a href="#books">Books &amp; chapters</a><a href="#theses">Theses</a>
+    </nav>
+  </section>
+  {% assign categories = 'journals,conferences,workshops,posters,books,theses' | split: ',' %}
+  {% for category in categories %}
+    {% assign papers = site.data.publications | where: 'category', category %}
+    <section class="section" id="{{ category }}">
+      <div class="section-heading">
+        <h2>{% case category %}{% when 'journals' %}Journal articles{% when 'conferences' %}Conference papers{% when 'workshops' %}Workshop papers{% when 'posters' %}Posters, abstracts &amp; doctoral consortium{% when 'books' %}Books &amp; book chapters{% when 'theses' %}Theses{% endcase %}</h2>
+        <span class="post-meta">{{ papers.size }} publications</span>
+      </div>
+      {% for paper in papers %}
+        <article class="publication" id="{{ paper.id }}">
+          <p class="publication-venue">{{ paper.year }} · {{ paper.venue | escape }}</p>
+          <h3>{{ paper.title | escape }}</h3>
+          <p class="publication-authors">{{ paper.authors | escape }}</p>
+          {% if paper.note != '' %}<p class="archive-note">{{ paper.note | escape }}</p>{% endif %}
+          <div class="paper-downloads">
+            {% for file in paper.files %}
+              <a href="{{ file.path | relative_url }}" download aria-label="{{ file.label | escape }}: {{ paper.title | escape }}">{{ file.label | escape }} ↓</a>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+      <p class="archive-top"><a href="#main-content">Back to top ↑</a></p>
+    </section>
+  {% endfor %}
+  <p class="section"><a href="{{ '/' | relative_url }}">← Back to home</a></p>
+</main>

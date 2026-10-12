@@ -1,0 +1,367 @@
+[
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2019 ESWA.pdf",
+    "new": "pubs/journals/2019-relational-social-recommendation-application-to-the-academic-domain.pdf",
+    "sha256": "349a37c81b4b60a211629976836e73bdf47302602e19ef33d53e48100cf36606"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2019 TiiS.pdf",
+    "new": "pubs/journals/2019-exploring-social-recommendations-with-visual-diversity-promoting-interfaces.pdf",
+    "sha256": "056bc09fa885960cf3b87bdd90d7b3a2ac9859b9d36ce469ba8b11bf19e9f4e4"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2020 IJHCS.pdf",
+    "new": "pubs/journals/2020-familys-health-opportunities-for-non-collocated-intergenerational-families-collaboration-on-healthy-living.pdf",
+    "sha256": "ae2dfe1a5759c9814bd851488e8768e5e16110e519f052000c310ffd8bcff239"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2020 IxD&A.pdf",
+    "new": "pubs/journals/2020-experiencing-the-transition-to-remote-teaching-and-learning-during-the-covid-19-pandemic.pdf",
+    "sha256": "6842195565e9824b66bb72d06be8ef2d5994ba82a7e8aef65a12337066fb190d"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2020 UMUAI.pdf",
+    "new": "pubs/journals/2020-the-effects-of-controllability-and-explainability-in-a-social-recommender-system.pdf",
+    "sha256": "df7be64319e920c68b1508c10572c79e130ae3a64066e24f0902f911f91b4575"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2021 CSCW 1.pdf",
+    "new": "pubs/journals/2021-working-together-in-a-phamilyspace-facilitating-collaboration-on-healthy-behaviors-over-distance.pdf",
+    "sha256": "c472f23650b2deea7a4cd56dd0c1c292ecef2f1ed9f435f4d8bdff8ed24b91ba"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2021 CSCW 2.pdf",
+    "new": "pubs/journals/2021-with-help-from-afar-cross-local-communication-in-an-online-covid-19-pandemic-community.pdf",
+    "sha256": "8e6272fb8bf459ba02800f5dfb55d9801d4cf86833a2da348c4bce330d5f7b78"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2022 CSCW.pdf",
+    "new": "pubs/journals/2022-instagram-of-rivers-facilitating-distributed-collaboration-in-hyperlocal-citizen-science.pdf",
+    "sha256": "112b84c050a0a4790e5857f0c7c1c3c24d3d34c809bc3c3c883e8dfa2ed79e1b"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2022 IJHCS.pdf",
+    "new": "pubs/journals/2022-workout-connections-investigating-social-interactions-in-online-group-exercise-classes.pdf",
+    "sha256": "c6418f76e184451fca11f0b93acfa74d7969d812b0dc669896bc8e270ed4b8fa"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2022 TOCHI.pdf",
+    "new": "pubs/journals/2022-iterative-design-and-prototyping-of-computer-vision-mediated-remote-sighted-assistance.pdf",
+    "sha256": "d0d16b7b2a5381b9b856923e660001f6d85e03303b629df0d55cb1bba78c31c2"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2023 TOCHI.pdf",
+    "new": "pubs/journals/2023-beyond-self-diagnosis-how-a-chatbot-based-symptom-checker-should-respond.pdf",
+    "sha256": "c4980c5ffd1562cfe559995357e03f058e3a3ee8d7d3eec768b585b15d8f91bf"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2024 DGOV.pdf",
+    "new": "pubs/journals/2024-co-design-smart-disaster-management-systems-with-indigenous-communities.pdf",
+    "sha256": "d2048dfa9f31593766e10eab04a47f9d219b69713031e074f2b794dd27ce4f72"
+  },
+  {
+    "old": "pubs/3.1.1 Peer-reviewed Journal Publications/J 2025 CSCW.pdf",
+    "new": "pubs/journals/2025-distance-matters-in-citizen-based-water-quality-monitoring.pdf",
+    "sha256": "f2f80d9c86354def8581c406cbc99b6615c5051493769b85f6cd7256835884c6"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2016 HT.pdf",
+    "new": "pubs/conferences/2016-a-fuzzy-based-personalized-recommender-system-for-local-businesses.pdf",
+    "sha256": "feb738881620eb220179d3d3d918c9a88c9929832b5a9ca4e21c5b4d4250eb41"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2017 UMAP 1.pdf",
+    "new": "pubs/conferences/2017-providing-control-and-transparency-in-a-social-recommender-system-for-academic-conferences.pdf",
+    "sha256": "5536dbbc07da9fb28d6dbfbad5916692bdb1c040d210eb8176257e364eecc349"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2017 UMAP 2.pdf",
+    "new": "pubs/conferences/2017-leveraging-interfaces-to-improve-recommendation-diversity.pdf",
+    "sha256": "77f8d89c2ff9dae26e91d0aad469951b28aac77b246f54c6ccd6e067bc83dd78"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2018 IUI.pdf",
+    "new": "pubs/conferences/2018-beyond-the-ranked-list-user-driven-exploration-and-diversification-of-social-recommendation.pdf",
+    "sha256": "6be83f6c13d084365f4c25fb87d08c534a579f7958ec91dc5d7318b827c5da5c"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2019 IUI.pdf",
+    "new": "pubs/conferences/2019-explaining-recommendations-in-an-interactive-hybrid-social-recommender.pdf",
+    "sha256": "b01284d290a06f40136f48b306cf66b7126e1ddb0a4eca6166e4740395e3d5ac"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2019 UMAP.pdf",
+    "new": "pubs/conferences/2019-evaluating-visual-explanations-for-similarity-based-recommendations-user-perception-and-performance.pdf",
+    "sha256": "fad47fac8399e20a6664c52524e5d532cfa2914471522ec3e9c8af18cfd9afb7"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2020 CHI.pdf",
+    "new": "pubs/conferences/2020-the-emerging-professional-practice-of-remote-sighted-assistance-for-people-with-visual-impairments.pdf",
+    "sha256": "b6004a7941c47b69d60d45c0f3b1ae0a8ffba109127443d63820f9ad16deec60"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2021 C&T 1.pdf",
+    "new": "pubs/conferences/2021-making-space-for-support-an-exploratory-analysis-of-pandemic-response-mutual-aid-platforms.pdf",
+    "sha256": "d9c307bc946c79dd76aff8b34fda89f69d99611f6aedceec4b5f2f1eda699099"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2021 C&T 2.pdf",
+    "new": "pubs/conferences/2021-covid-19-kindness-patterns-of-neighborly-cooperation-during-a-global-pandemic.pdf",
+    "sha256": "4b37f36b2fb93e459529c1e6bd9de067b738dd38f0f39f8876bbc09e95df7cc9"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2021 CHI.pdf",
+    "new": "pubs/conferences/2021-exploring-and-promoting-diagnostic-transparency-and-explainability-in-online-symptom-checkers.pdf",
+    "sha256": "b8f4a83f4a2cd65b81785f4fc1344c1eb8b1c6dfb9d14458f2a71cff301dd0ea"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2022 GROUP 1.pdf",
+    "new": "pubs/conferences/2022-making-community-beliefs-and-capacities-visible-through-care-mongering-during-covid-19.pdf",
+    "sha256": "d872c748e7325a9b100bdf65c059d445ab1ed5d4e049d8a2b09abf0e27ec27f4"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2022 GROUP 2.pdf",
+    "new": "pubs/conferences/2022-community-acknowledgment-engaging-community-members-in-volunteer-acknowledgment.pdf",
+    "sha256": "3ac48fb5c79932369aa329851c388b4b49bd11607c419970bddb521dac859471"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2022 L@S.pdf",
+    "new": "pubs/conferences/2022-picturing-ones-self-camera-use-in-zoom-classes-during-the-covid-19-pandemic.pdf",
+    "sha256": "ebc64ac3a37b6b46636a572f403eb85b7dfccd84f21f20ebfd303429106f7e2f"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2022 iConference.pdf",
+    "new": "pubs/conferences/2022-using-local-community-to-ease-long-haul-uncertainty-during-the-covid-19-pandemic.pdf",
+    "sha256": "9c8e1e82919758f182aeadf5ab6db2289d444e4a27665145887e3bf81a794750"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2023 ISCRAM 1.pdf",
+    "new": "pubs/conferences/2023-co-design-disaster-management-chatbot-with-indigenous-communities.pdf",
+    "sha256": "0e05d522a7c9705b21608758c674c7b9ade407fc8d77aeb8780b43a9c3909c86"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2023 ISCRAM 2.pdf",
+    "new": "pubs/conferences/2023-generating-personalized-pregnancy-nutrition-recommendations-with-gpt-powered-ai-chatbot.pdf",
+    "sha256": "3e08a373c3e46aeefbbaad0355d06cc1a8453885b07a3efa2788df5e7842d8f3"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2024 DGO 1.pdf",
+    "new": "pubs/conferences/2024-tribal-knowledge-cocreation-in-generative-artificial-intelligence-systems.pdf",
+    "sha256": "b63b2c3fb59ab0c6eb8324b8b344aacd66e6a8f6d6984e9ed17ad1bd757975ca"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2024 DGO 2.pdf",
+    "new": "pubs/conferences/2024-ensuring-transparency-in-using-chatgpt-for-public-sentiment-analysis.pdf",
+    "sha256": "09fa9efd6c1fc161239762a42f9cb0ecc1735c21022afc35fc062f7c56444593"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2024 DITTET 1.pdf",
+    "new": "pubs/conferences/2024-utilizing-retrieval-augmented-large-language-models-for-pregnancy-nutrition-advice.pdf",
+    "sha256": "a066876fca619396744ce7778b8891a6ef143fadd2472260d2cd38512d9e0067"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2024 DITTET 2.pdf",
+    "new": "pubs/conferences/2024-explaining-social-recommendations-using-large-language-models.pdf",
+    "sha256": "d6c5b858ef2dfaf28f38c98f3035c2a0749f01694b56dd797d84d20c0637927a"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2024 ICMHI.pdf",
+    "new": "pubs/conferences/2024-interpretable-classification-of-myositis-from-muscle-ultrasound-images.pdf",
+    "sha256": "edbab0671ed16e60c6e29d3bc3cdc50bc658913ee77b666915c260c242b9e34f"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2024 MIPR.pdf",
+    "new": "pubs/conferences/2024-deep-learning-based-text-in-image-watermarking.pdf",
+    "sha256": "3bf8d91ae893e59d12ec458f72520da62daacca97da4594e8c4733246f573cb7"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2025 DGO.pdf",
+    "new": "pubs/conferences/2025-multi-level-collaborative-governance-framework-for-designing-accountable-ai-systems-for-emergency-management.pdf",
+    "sha256": "dc1228a83f06bd4113bf4f47dccce684e4609cb7be206b7afbb2c9bf180eaa02"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2025 DITTET-1.pdf",
+    "new": "pubs/conferences/2025-evaluating-the-use-of-ai-agents-in-teaching-doctor-patient-communication-skills.pdf",
+    "sha256": "f1705d9039afbfb80c601886fc87a1003653804d55a5e34f8967030607bb68da"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2025 DITTET-2.pdf",
+    "new": "pubs/conferences/2025-generative-ai-in-policy-informed-insurance-adjudication-a-comparative-analysis.pdf",
+    "sha256": "92692f57e09aab9a8f2be924715676b2918e57d46e573e409833cac6a135ab32"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2026 DGO-1.pdf",
+    "new": "pubs/conferences/2026-designing-and-evaluating-public-facing-multimodal-llms-for-early-autism-screening.pdf",
+    "sha256": "0739c6d2fe624a2b62f1fa23be4ef7f768cf76cf4ad768ec2d7b7a3b5ce53e8c"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2026 DGO-2.pdf",
+    "new": "pubs/conferences/2026-an-exploratory-study-of-agentic-ai-for-long-term-healthcare-navigation.pdf",
+    "sha256": "bf4f4511cbe1e8f92c218d3267c25acb3e3d2a33e32aff0a0d3916b97acc55b4"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2026 DGO-3.pdf",
+    "new": "pubs/conferences/2026-designing-ai-assisted-co-writing-for-tribal-government-emergency-operations-planning.pdf",
+    "sha256": "2fc099ee557d362da1a2dcb0e41a2c7e30da6a9c8c18e2390e3fd3da04ad080f"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2026 DGO-4.pdf",
+    "new": "pubs/conferences/2026-preserving-indigenous-culture-and-sovereignty-in-large-language-models.pdf",
+    "sha256": "b42ce524e18f5209f6069a64ccdf9bec90e01980139d5a6b2eb0fb9068307ba4"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/C 2026 DGO-5.pdf",
+    "new": "pubs/conferences/2026-collaborative-governance-for-accountable-ai-systems-in-tribal-emergency-management.pdf",
+    "sha256": "72480a39f65f5baef1704b13b54ad6e12e52f40969a9383cc00975440cf678b7"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2014 WebSci.pdf",
+    "new": "pubs/posters/2014-from-media-reporting-to-international-relations-a-case-study-of-asia-pacific-economic-cooperation-apec.pdf",
+    "sha256": "230ecfe0c0cf1a3891581766ae0e5fe07bc617c82cb4b0c32af6d10207d557fd"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2015 ICTD.pdf",
+    "new": "pubs/posters/2015-fuzziness-in-lgbt-non-profit-ict-use.pdf",
+    "sha256": "6a1e5be6b2c94678a70640c7b97061158a5abf71ca0e13c7d5fef6811e364594"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2015 iConference.pdf",
+    "new": "pubs/posters/2015-the-evolution-of-scientific-productivity-of-junior-scholars.pdf",
+    "sha256": "6e27280a83ef11ec3a18705693bf2a44caf42c70ab285125e6faf37531fd7385"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2016 iConference.pdf",
+    "new": "pubs/posters/2016-a-personalized-people-recommender-system-using-global-search-approach.pdf",
+    "sha256": "fa73c328d3ef143fb2ea515c7ff0a8f0a94e8f60b94c70ef3224c1e5de75c18f"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2017 iConference.pdf",
+    "new": "pubs/posters/2017-an-interactive-and-interpretable-interface-for-diversity-in-recommender-systems.pdf",
+    "sha256": "f871e9057ec41228358e7fae57431937731e09bbbe62f27bd37e128f4cba7d7f"
+  },
+  {
+    "old": "pubs/3.1.4 Other Peer-reviewed Publications/D 2017 IUI.pdf",
+    "new": "pubs/posters/2017-an-interactive-and-interpretable-interface-for-diversity-in-recommender-systems-alternate.pdf",
+    "sha256": "517f3113f41ea4a122022ccd6a3934fed3aca9ab1b9d33dce4ceaebb9f3ee25b"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2018 CHIIR.pdf",
+    "new": "pubs/posters/2018-diversity-enhanced-recommendation-interface-and-evaluation.pdf",
+    "sha256": "8b5df0b6c4c12b3c43f23cc5e5cf6f2e7028f16c4271bcaf76ab6d40ff406dd4"
+  },
+  {
+    "old": "pubs/3.1.4 Other Peer-reviewed Publications/D 2018 CHIIR.pdf",
+    "new": "pubs/posters/2018-diversity-enhanced-recommendation-interface-and-evaluation-alternate.pdf",
+    "sha256": "a5a6439ff30d0c12570f7d2da09c37deaad96cbe94ee1006fb97ebde07b77aae"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2018 IUI.pdf",
+    "new": "pubs/posters/2018-explaining-social-recommendations-to-casual-users-design-principles-and-opportunities.pdf",
+    "sha256": "3db9c48fe4c6c698b28749b43d9b956886c20ede150938f87ad34cc11aaa7707"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2019 FLAIRS.pdf",
+    "new": "pubs/posters/2019-expanding-controllability-of-hybrid-recommender-systems-from-positive-to-negative-relevance.pdf",
+    "sha256": "97f6bfd0c1b74273f603f8e98dcc3fa9429b24530818aa22d76927debf76429c"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2024 DGO 1.pdf",
+    "new": "pubs/posters/2024-leveraging-large-language-models-for-effective-organizational-navigation.pdf",
+    "sha256": "4975d66fbd1224c8331c5d9c969cd17213dd492bc0bd7f7f90652963fda5909f"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2024 DGO 2.pdf",
+    "new": "pubs/posters/2024-incorporating-citizen-generated-data-into-large-language-models.pdf",
+    "sha256": "fb00414172330e2031dce307690d5a917380abb90e9ccabda7e0ea1fca399db9"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2024 IUI.pdf",
+    "new": "pubs/posters/2024-utilizing-large-language-models-in-tribal-emergency-management.pdf",
+    "sha256": "1318eb6c732f6639b4fefb557b5266f54677b0093d946a618397a426083a0235"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/P 2025 DGO.pdf",
+    "new": "pubs/posters/2025-leveraging-conversational-ai-for-adolescent-medical-financial-education.pdf",
+    "sha256": "64c75fd11cdfedb1f523160859254ae4f6b31cd4063cc8076a120fa0b74a73a7"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2016 WWW.pdf",
+    "new": "pubs/workshops/2016-tracing-and-predicting-collaboration-for-junior-scholars.pdf",
+    "sha256": "e914561bc6e92eef73b3738fc91d3b93af87ecdb2c9646ff187abc66fdadcdb2"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2017 RecSys IntRS.pdf",
+    "new": "pubs/workshops/2017-enhancing-recommendation-diversity-through-a-dual-recommendation-interface.pdf",
+    "sha256": "97c3eda1ef2391b1e9a9a83a9155587e82b173857e0737a65d4fca7a23b9c5b8"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2019 IUI ATEC.pdf",
+    "new": "pubs/workshops/2019-designing-explanation-interfaces-for-transparency-and-beyond.pdf",
+    "sha256": "eb02f5252e928fb4cd6675904ac054d8c860e8c10f6b1f7d95e51d0c81a6793d"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2019 IUI ESIDA.pdf",
+    "new": "pubs/workshops/2019-exploring-user-controlled-hybrid-recommendation-in-conference-contexts.pdf",
+    "sha256": "2f1b4134583e7b2c1570c60854b0dc4e4ffd19934214eb47207e27fb65ed1ebe"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2020 CHI Conv.pdf",
+    "new": "pubs/workshops/2020-talk-the-talk-how-human-conversational-agents-build-trust.pdf",
+    "sha256": "f553e56eb2687dae4b9e01c6ad9899aed752d4f2672614763d0ffd4d2fad9b22"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2020 RecSys IntRS 1.pdf",
+    "new": "pubs/workshops/2020-user-feedback-in-controllable-and-explainable-social-recommender-systems-a-linguistic-analysis.pdf",
+    "sha256": "d050d0b875fe64b37bf0c1bae61ff2cbcca0d0d6f93b5b058eda7ea9e6b5f202"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2020 RecSys IntRS 2.pdf",
+    "new": "pubs/workshops/2020-diversity-exposure-in-social-recommender-systems-a-social-capital-theory-perspective.pdf",
+    "sha256": "e412bde8280de80037c6bfafa3e5b9bd0dd57c37ddaa5ad217a5591ea3fa54d3"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2023 CSCW Indigeneity.pdf",
+    "new": "pubs/workshops/2023-co-design-for-indigeneity-and-sovereignty.pdf",
+    "sha256": "d2b8063a2899d33c1efea9826857ba7d407ab2dec0ba2f13cd025a608cf54f9c"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2025 ExUM.pdf",
+    "new": "pubs/workshops/2025-leveraging-generative-ai-to-improve-comprehensibility-in-social-recommender-systems.pdf",
+    "sha256": "db51b82c63fe406d5c8231bd104808aefc2efc3fe0f7545bc120f6c2b6e7a28d"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2025 FairUMAP.pdf",
+    "new": "pubs/workshops/2025-balancing-health-information-seeking-through-retrieval-augmented-generation-based-llm-chatbot.pdf",
+    "sha256": "7c68ccfc70868f684e76cf43257f741b05927b60d1dfb61429997bb6d10a52a6"
+  },
+  {
+    "old": "pubs/3.1.2 Peer-reviewed Conference and Workshop Proceedings/W 2025 LLM4Good.pdf",
+    "new": "pubs/workshops/2025-exploring-responsible-use-of-generative-ai-in-disaster-resilience-for-indigenous-communities.pdf",
+    "sha256": "d5e66465ce53642629369eb8820a9cd3722d8ac4a9243e6626838ddd83dfc106"
+  },
+  {
+    "old": "pubs/3.1.3 Peer-reviewed Book Chapters/2020 xxAI 978-3-031-04083-2_19.pdf",
+    "new": "pubs/books/2022-logic-and-pragmatics-in-ai-explanation.pdf",
+    "sha256": "44c34fa41dbadc95871cbacf9cfb0c758cfaf33b8cb835f4d0e387f560d75719"
+  },
+  {
+    "old": "pubs/3.1.3 Peer-reviewed Book Chapters/2021 Perspectives on Digitally-Mediated Team Learning 978-3-030-77614-5.pdf",
+    "new": "pubs/books/2021-cultivating-and-leveraging-continuous-accountability-through-mundane-infrastructures-for-critical-thinking.pdf",
+    "sha256": "66b2cdfc533a9934d4af151e37b6f097d5fb091af73c3da8e671b1d668de963c"
+  },
+  {
+    "old": "pubs/3.1.3 Peer-reviewed Book Chapters/2025 Coproducing_Care__Synergies_of_Recognition__ready_for_Springer_Series_.pdf",
+    "new": "pubs/books/2025-coproducing-care-synergies-of-recognition.pdf",
+    "sha256": "f9932078b45ba3fca717dc8d6fbd29ebb0e85ac8c4907dbdb5e78e3d13c77a19"
+  },
+  {
+    "old": "pubs/3.1.4 Other Peer-reviewed Publications/T 2019 Doctoral Dissertation.pdf",
+    "new": "pubs/theses/2019-controllability-and-explainability-in-a-hybrid-social-recommender-system.pdf",
+    "sha256": "97497c80bbb1f9268aff82f8221e9d5df342bdb2c9f565c7005f61ce8aedcfbb"
+  },
+  {
+    "old": "pubs/3.1.4 Other Peer-reviewed Publications/T 2009 Master Thesis.pdf",
+    "new": "pubs/theses/2009-a-study-of-cloud-computing-soa-service-platform-architecture-and-operation-mechanism.pdf",
+    "sha256": "395f1ef83fd17709ce59293768b277d649ba77d483292e0e7ddbbbb3eecc3503"
+  }
+]

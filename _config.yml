@@ -1,5 +1,6 @@
 title: "Chun-Hua Tsai"
-description: "Research notes and professional updates from Chun-Hua Tsai."
+description: "Chun-Hua Tsai’s academic profile, research, publications, teaching, and notes on human-centered AI."
+content_updated: "2026-10-11"
 url: "https://chunhuatsai.github.io"
 baseurl: ""
 lang: "en"
@@ -25,3 +26,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - docs
+  - pubs/README.md

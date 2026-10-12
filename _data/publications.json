@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "c5",
+    "title": "An Exploratory Study of Agentic AI for Long-Term Healthcare Navigation",
+    "authors": "Nandy, G. & Tsai, C.-H.",
+    "year": 2026,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2026-an-exploratory-study-of-agentic-ai-for-long-term-healthcare-navigation.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c1",
+    "title": "Collaborative Governance for Accountable AI Systems in Tribal Emergency Management",
+    "authors": "Choi, S., Chen, Y.-C., Wang, Y.-F., Tsai, C.-H., Zendejas, E., & Krafka, S.",
+    "year": 2026,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2026-collaborative-governance-for-accountable-ai-systems-in-tribal-emergency-management.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c4",
+    "title": "Designing AI-Assisted Co-Writing for Tribal Government Emergency Operations Planning",
+    "authors": "Tsai, C.-H., Bano, T., Chen, Y.-C., Zendejas, E., & Krafka, S.",
+    "year": 2026,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2026-designing-ai-assisted-co-writing-for-tribal-government-emergency-operations-planning.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c3",
+    "title": "Designing and Evaluating Public-Facing Multimodal LLMs for Early Autism Screening",
+    "authors": "Pal, A., Fatima, U. K., Gupta, S., Gayashan, P. & Tsai, C.-H.",
+    "year": 2026,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2026-designing-and-evaluating-public-facing-multimodal-llms-for-early-autism-screening.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c2",
+    "title": "Preserving Indigenous Culture and Sovereignty in Large Language Models",
+    "authors": "Gupta, S., Bano, T., Chen, Y.-C., Zendejas, E., Krafka, S. & Tsai, C.-H.",
+    "year": 2026,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2026-preserving-indigenous-culture-and-sovereignty-in-large-language-models.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w3",
+    "title": "Balancing Health Information-Seeking through Retrieval-Augmented Generation-Based LLM Chatbot",
+    "authors": "Nandy, G., Gupta, S., Afzali, F. M., Peeples, E., Pilon, B. & Tsai, C. H.",
+    "year": 2025,
+    "category": "workshops",
+    "venue": "UMAP / FairUMAP",
+    "files": [
+      {
+        "path": "/pubs/workshops/2025-balancing-health-information-seeking-through-retrieval-augmented-generation-based-llm-chatbot.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "b1",
+    "title": "Coproducing Care: Synergies of Recognition",
+    "authors": "Carroll, J. M., Jo, J., Gupta, S., Gui, F., Lin, Y. F., Lee, S., Knearem, T. & Tsai, C. H.",
+    "year": 2025,
+    "category": "books",
+    "venue": "Springer · Synthesis Lectures on Human-Centered Informatics",
+    "files": [
+      {
+        "path": "/pubs/books/2025-coproducing-care-synergies-of-recognition.pdf",
+        "label": "Download manuscript PDF"
+      }
+    ],
+    "note": "Archived manuscript includes publisher template placeholders."
+  },
+  {
+    "id": "j1",
+    "title": "Distance Matters in Citizen-Based Water Quality Monitoring",
+    "authors": "Gupta, S., Carroll, J. M., & Tsai, C. H.",
+    "year": 2025,
+    "category": "journals",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+    "files": [
+      {
+        "path": "/pubs/journals/2025-distance-matters-in-citizen-based-water-quality-monitoring.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c6",
+    "title": "Evaluating the Use of AI Agents in Teaching Doctor-Patient Communication Skills",
+    "authors": "Mirzac, V., Thallemer, A., Yu, M. C., Chen, Y. C. & Tsai, C. H.",
+    "year": 2025,
+    "category": "conferences",
+    "venue": "Disruptive Technologies, Tech Ethics and Artificial Intelligence",
+    "files": [
+      {
+        "path": "/pubs/conferences/2025-evaluating-the-use-of-ai-agents-in-teaching-doctor-patient-communication-skills.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w1",
+    "title": "Exploring Responsible Use of Generative AI in Disaster Resilience for Indigenous Communities",
+    "authors": "Bano, T., Tsai, C. H., Gupta, S., Chen, Y. C., Zendejas, E. & Krafka, S.",
+    "year": 2025,
+    "category": "workshops",
+    "venue": "UMAP / LLM4GOOD",
+    "files": [
+      {
+        "path": "/pubs/workshops/2025-exploring-responsible-use-of-generative-ai-in-disaster-resilience-for-indigenous-communities.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c7",
+    "title": "Generative AI in Policy-Informed Insurance Adjudication: A Comparative Analysis",
+    "authors": "Osamau, E. & Tsai, C. H.",
+    "year": 2025,
+    "category": "conferences",
+    "venue": "Disruptive Technologies, Tech Ethics and Artificial Intelligence",
+    "files": [
+      {
+        "path": "/pubs/conferences/2025-generative-ai-in-policy-informed-insurance-adjudication-a-comparative-analysis.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p1",
+    "title": "Leveraging Conversational AI for Adolescent Medical Financial Education",
+    "authors": "Chen, W., Le, A., Athota, P., Ashaduzzaman, M. & Tsai, C. H.",
+    "year": 2025,
+    "category": "posters",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/posters/2025-leveraging-conversational-ai-for-adolescent-medical-financial-education.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w2",
+    "title": "Leveraging Generative AI to Improve Comprehensibility in Social Recommender Systems",
+    "authors": "Ashaduzzaman, M. & Tsai, C. H.",
+    "year": 2025,
+    "category": "workshops",
+    "venue": "UMAP / ExUM",
+    "files": [
+      {
+        "path": "/pubs/workshops/2025-leveraging-generative-ai-to-improve-comprehensibility-in-social-recommender-systems.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c8",
+    "title": "Multi-level Collaborative Governance Framework for Designing Accountable AI Systems for Emergency Management",
+    "authors": "Chen, Y. C., Tsai, C. H. & Zendejas, E.",
+    "year": 2025,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2025-multi-level-collaborative-governance-framework-for-designing-accountable-ai-systems-for-emergency-management.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j2",
+    "title": "Co-Design Smart Disaster Management Systems with Indigenous Communities",
+    "authors": "Tsai, C. H., Huang, C., Chen, Y. C., Zendejas, E., Krafka, S., & Zendejas, J.",
+    "year": 2024,
+    "category": "journals",
+    "venue": "Digital Government: Research and Practice",
+    "files": [
+      {
+        "path": "/pubs/journals/2024-co-design-smart-disaster-management-systems-with-indigenous-communities.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c11",
+    "title": "Deep Learning-based Text-in-Image Watermarking",
+    "authors": "Karki, B., Zhong, X., Tsai, C. H., & Huang, P. C.",
+    "year": 2024,
+    "category": "conferences",
+    "venue": "IEEE Multimedia Information Processing and Retrieval",
+    "files": [
+      {
+        "path": "/pubs/conferences/2024-deep-learning-based-text-in-image-watermarking.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c12",
+    "title": "Ensuring Transparency in Using ChatGPT for Public Sentiment Analysis",
+    "authors": "Tsai, C. H., Nandy, G., House, D., & Carroll, J. M.",
+    "year": 2024,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2024-ensuring-transparency-in-using-chatgpt-for-public-sentiment-analysis.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c9",
+    "title": "Explaining Social Recommendations Using Large Language Models",
+    "authors": "Ashaduzzaman, M., Nguyen, T. & Tsai, C. H.",
+    "year": 2024,
+    "category": "conferences",
+    "venue": "Disruptive Technologies, Tech Ethics and Artificial Intelligence",
+    "files": [
+      {
+        "path": "/pubs/conferences/2024-explaining-social-recommendations-using-large-language-models.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p2",
+    "title": "Incorporating Citizen-Generated Data into Large Language Models",
+    "authors": "Vadapalli, J., Gupta, S., Karki, B., & Tsai, C. H.",
+    "year": 2024,
+    "category": "posters",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/posters/2024-incorporating-citizen-generated-data-into-large-language-models.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c14",
+    "title": "Interpretable Classification of Myositis from Muscle Ultrasound Images",
+    "authors": "Karki, B., Zhong, X., Chen, Y. T. and Tsai, C. H.",
+    "year": 2024,
+    "category": "conferences",
+    "venue": "International Conference on Medical and Health Informatics",
+    "files": [
+      {
+        "path": "/pubs/conferences/2024-interpretable-classification-of-myositis-from-muscle-ultrasound-images.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p3",
+    "title": "Leveraging Large Language Models for Effective Organizational Navigation",
+    "authors": "Chandrasekar, H., Gupta, S., Liu, C. T., & Tsai, C. H.",
+    "year": 2024,
+    "category": "posters",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/posters/2024-leveraging-large-language-models-for-effective-organizational-navigation.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c13",
+    "title": "Tribal Knowledge Cocreation in Generative Artificial Intelligence Systems",
+    "authors": "Wang, Y. F., Chen, Y. C., Huang, Y. C., Redwing, C., & Tsai, C. H.",
+    "year": 2024,
+    "category": "conferences",
+    "venue": "International Conference on Digital Government Research (dg.o)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2024-tribal-knowledge-cocreation-in-generative-artificial-intelligence-systems.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p4",
+    "title": "Utilizing Large Language Models in Tribal Emergency Management",
+    "authors": "Gupta, S., Chen, Y. C., & Tsai, C. H.",
+    "year": 2024,
+    "category": "posters",
+    "venue": "ACM IUI",
+    "files": [
+      {
+        "path": "/pubs/posters/2024-utilizing-large-language-models-in-tribal-emergency-management.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c10",
+    "title": "Utilizing Retrieval-Augmented Large Language Models for Pregnancy Nutrition Advice",
+    "authors": "Bano, T., Vadapalli, J., Karki, B., Thoene, M., Vanormer, M., Anderson Berry, A. & Tsai, C. H.",
+    "year": 2024,
+    "category": "conferences",
+    "venue": "Disruptive Technologies, Tech Ethics and Artificial Intelligence",
+    "files": [
+      {
+        "path": "/pubs/conferences/2024-utilizing-retrieval-augmented-large-language-models-for-pregnancy-nutrition-advice.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j3",
+    "title": "Beyond Self-diagnosis: How a Chatbot-based Symptom Checker Should Respond",
+    "authors": "You, Y., Tsai, C. H., Li, Y., Ma, F., Heron, C. & Gui, X.",
+    "year": 2023,
+    "category": "journals",
+    "venue": "ACM Transactions on Computer-Human Interaction",
+    "files": [
+      {
+        "path": "/pubs/journals/2023-beyond-self-diagnosis-how-a-chatbot-based-symptom-checker-should-respond.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c16",
+    "title": "Co-Design Disaster Management Chatbot with Indigenous Communities",
+    "authors": "Tsai, C. H., Rayi, P., Kadire, S., Wang, Y. F., Krafka, S., Zendejas, E., and Chen, Y. C.",
+    "year": 2023,
+    "category": "conferences",
+    "venue": "ISCRAM",
+    "files": [
+      {
+        "path": "/pubs/conferences/2023-co-design-disaster-management-chatbot-with-indigenous-communities.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w4",
+    "title": "Co-Design for Indigeneity and Sovereignty",
+    "authors": "Sreeramdas, T., Chandrasekar, H., Gudibandi, L. & Tsai, C. H.",
+    "year": 2023,
+    "category": "workshops",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+    "files": [
+      {
+        "path": "/pubs/workshops/2023-co-design-for-indigeneity-and-sovereignty.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c15",
+    "title": "Generating Personalized Pregnancy Nutrition Recommendations with GPT-Powered AI Chatbot",
+    "authors": "Tsai, C. H., Kadire, S., Sreeramdas, T., Vanormer, M., Thoene, M., Hanson, C., Anderson Berry, A. & Khazanchi, D.",
+    "year": 2023,
+    "category": "conferences",
+    "venue": "ISCRAM",
+    "files": [
+      {
+        "path": "/pubs/conferences/2023-generating-personalized-pregnancy-nutrition-recommendations-with-gpt-powered-ai-chatbot.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c19",
+    "title": "Community Acknowledgment: Engaging Community Members in Volunteer Acknowledgment",
+    "authors": "Gui, F., Tsai, C. H., & Carroll, J. M.",
+    "year": 2022,
+    "category": "conferences",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (GROUP)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2022-community-acknowledgment-engaging-community-members-in-volunteer-acknowledgment.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j6",
+    "title": "Instagram of Rivers: Facilitating Distributed Collaboration in Hyperlocal Citizen Science",
+    "authors": "Gupta, S., Jablonski, J., Tsai, C. H. & Carroll, J. M.",
+    "year": 2022,
+    "category": "journals",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+    "files": [
+      {
+        "path": "/pubs/journals/2022-instagram-of-rivers-facilitating-distributed-collaboration-in-hyperlocal-citizen-science.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j5",
+    "title": "Iterative Design and Prototyping of Computer Vision Mediated Remote Sighted Assistance",
+    "authors": "Xie, J., Reddie, M., Lee, S., Billah, S., Zhou, Z., Tsai, C. H. & Carroll, J. M.",
+    "year": 2022,
+    "category": "journals",
+    "venue": "ACM Transactions on Computer-Human Interaction",
+    "files": [
+      {
+        "path": "/pubs/journals/2022-iterative-design-and-prototyping-of-computer-vision-mediated-remote-sighted-assistance.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "b2",
+    "title": "Logic and Pragmatics in AI Explanation",
+    "authors": "Tsai, C. H. & Carroll, J. M.",
+    "year": 2022,
+    "category": "books",
+    "venue": "xxAI – Beyond Explainable Artificial Intelligence · Springer",
+    "files": [
+      {
+        "path": "/pubs/books/2022-logic-and-pragmatics-in-ai-explanation.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c20",
+    "title": "Making Community Beliefs and Capacities Visible Through Care-mongering During COVID-19",
+    "authors": "Knearem, T., Jo, J., Tsai, C. H., & Carroll, J. M.",
+    "year": 2022,
+    "category": "conferences",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (GROUP)",
+    "files": [
+      {
+        "path": "/pubs/conferences/2022-making-community-beliefs-and-capacities-visible-through-care-mongering-during-covid-19.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c17",
+    "title": "Picturing One’s Self: Camera Use in Zoom Classes during the COVID-19 Pandemic",
+    "authors": "Li, N., Rodriguez G. R., Xu Y., Bhatt P., Nguyen H., Serpi, A., Tsai, C. H. & Carroll, J. M.",
+    "year": 2022,
+    "category": "conferences",
+    "venue": "ACM Learning @ Scale",
+    "files": [
+      {
+        "path": "/pubs/conferences/2022-picturing-ones-self-camera-use-in-zoom-classes-during-the-covid-19-pandemic.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c18",
+    "title": "Using Local Community to Ease Long Haul Uncertainty during the COVID-19 Pandemic",
+    "authors": "Jo, J., Knearem, T., Tsai, C. H., & Carroll, J. M.",
+    "year": 2022,
+    "category": "conferences",
+    "venue": "iConference",
+    "files": [
+      {
+        "path": "/pubs/conferences/2022-using-local-community-to-ease-long-haul-uncertainty-during-the-covid-19-pandemic.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j4",
+    "title": "Workout Connections: Investigating Social Interactions in Online Group Exercise Classes",
+    "authors": "Gui, F., Tsai, C. H., Vajda, A., & Carroll, J. M.",
+    "year": 2022,
+    "category": "journals",
+    "venue": "International Journal of Human-Computer Studies",
+    "files": [
+      {
+        "path": "/pubs/journals/2022-workout-connections-investigating-social-interactions-in-online-group-exercise-classes.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c22",
+    "title": "COVID-19 Kindness: Patterns of Neighborly Cooperation during a Global Pandemic",
+    "authors": "Jo, J., Knearem, T., Tsai, C. H., & Carroll, J. M.",
+    "year": 2021,
+    "category": "conferences",
+    "venue": "Communities and Technologies",
+    "files": [
+      {
+        "path": "/pubs/conferences/2021-covid-19-kindness-patterns-of-neighborly-cooperation-during-a-global-pandemic.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "b3",
+    "title": "Cultivating and Leveraging Continuous Accountability Through Mundane Infrastructures for Critical Thinking",
+    "authors": "Carroll, J. M., Romera Rodriguez, G., Li, N., & Tsai, C. H.",
+    "year": 2021,
+    "category": "books",
+    "venue": "Perspectives on Digitally-Mediated Team Learning · Springer",
+    "files": [
+      {
+        "path": "/pubs/books/2021-cultivating-and-leveraging-continuous-accountability-through-mundane-infrastructures-for-critical-thinking.pdf",
+        "label": "Download full volume PDF"
+      }
+    ],
+    "note": "The download is the full edited volume containing this chapter."
+  },
+  {
+    "id": "c23",
+    "title": "Exploring and Promoting Diagnostic Transparency and Explainability in Online Symptom Checkers",
+    "authors": "Tsai, C. H., You, Y., Gui, X., Kou, Y. & Carroll, J. M.",
+    "year": 2021,
+    "category": "conferences",
+    "venue": "ACM CHI",
+    "files": [
+      {
+        "path": "/pubs/conferences/2021-exploring-and-promoting-diagnostic-transparency-and-explainability-in-online-symptom-checkers.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c21",
+    "title": "Making Space for Support: An Exploratory Analysis of Pandemic-Response Mutual Aid Platforms",
+    "authors": "Knearem, T., Jo, J., Tsai, C. H., & Carroll, J. M.",
+    "year": 2021,
+    "category": "conferences",
+    "venue": "Communities and Technologies",
+    "files": [
+      {
+        "path": "/pubs/conferences/2021-making-space-for-support-an-exploratory-analysis-of-pandemic-response-mutual-aid-platforms.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j7",
+    "title": "With Help from Afar: Cross-Local Communication in an Online COVID-19 Pandemic Community",
+    "authors": "Tsai, C. H., Gui, X., Kou, Y. & Carroll, J. M.",
+    "year": 2021,
+    "category": "journals",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+    "files": [
+      {
+        "path": "/pubs/journals/2021-with-help-from-afar-cross-local-communication-in-an-online-covid-19-pandemic-community.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j8",
+    "title": "Working Together in a PhamilySpace: Facilitating Collaboration on Healthy Behaviors Over Distance",
+    "authors": "Sandbulte, J., Tsai, C. H. & Carroll, J. M.",
+    "year": 2021,
+    "category": "journals",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+    "files": [
+      {
+        "path": "/pubs/journals/2021-working-together-in-a-phamilyspace-facilitating-collaboration-on-healthy-behaviors-over-distance.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w6",
+    "title": "Diversity Exposure in Social Recommender Systems: A Social Capital Theory Perspective",
+    "authors": "Tsai, C. H., Huhtamäki, J., Olsson, T., & Brusilovsky, P.",
+    "year": 2020,
+    "category": "workshops",
+    "venue": "RecSys / IntRS",
+    "files": [
+      {
+        "path": "/pubs/workshops/2020-diversity-exposure-in-social-recommender-systems-a-social-capital-theory-perspective.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j9",
+    "title": "Experiencing the Transition to Remote Teaching and Learning during the COVID-19 Pandemic",
+    "authors": "Tsai, C. H., Rodriguez G. R., Li, N., Robert, J., Serpi, A. & Carroll, J. M.",
+    "year": 2020,
+    "category": "journals",
+    "venue": "Interaction Design and Architecture(s)",
+    "files": [
+      {
+        "path": "/pubs/journals/2020-experiencing-the-transition-to-remote-teaching-and-learning-during-the-covid-19-pandemic.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j10",
+    "title": "Family’s Health: Opportunities for Non-Collocated Intergenerational Families Collaboration on Healthy Living",
+    "authors": "Sandbulte, J., Tsai, C. H. & Carroll, J. M.",
+    "year": 2020,
+    "category": "journals",
+    "venue": "International Journal of Human-Computer Studies",
+    "files": [
+      {
+        "path": "/pubs/journals/2020-familys-health-opportunities-for-non-collocated-intergenerational-families-collaboration-on-healthy-living.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w7",
+    "title": "Talk the Talk: How Human Conversational Agents Build Trust",
+    "authors": "Carroll, J. M., Tsai, C. H., & Lee S.",
+    "year": 2020,
+    "category": "workshops",
+    "venue": "ACM CHI",
+    "files": [
+      {
+        "path": "/pubs/workshops/2020-talk-the-talk-how-human-conversational-agents-build-trust.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j11",
+    "title": "The Effects of Controllability and Explainability in a Social Recommender System",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2020,
+    "category": "journals",
+    "venue": "User Modeling and User-Adapted Interaction",
+    "files": [
+      {
+        "path": "/pubs/journals/2020-the-effects-of-controllability-and-explainability-in-a-social-recommender-system.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c24",
+    "title": "The Emerging Professional Practice of Remote Sighted Assistance for People with Visual Impairments",
+    "authors": "Lee, S., Reddie, M., Tsai, C. H., Beck, J., Rosson M. B., & Carroll, J. M.",
+    "year": 2020,
+    "category": "conferences",
+    "venue": "ACM CHI",
+    "files": [
+      {
+        "path": "/pubs/conferences/2020-the-emerging-professional-practice-of-remote-sighted-assistance-for-people-with-visual-impairments.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w5",
+    "title": "User Feedback in Controllable and Explainable Social Recommender Systems: A Linguistic Analysis",
+    "authors": "Tsai, C. H. & Brusilovsky, P.",
+    "year": 2020,
+    "category": "workshops",
+    "venue": "RecSys / IntRS",
+    "files": [
+      {
+        "path": "/pubs/workshops/2020-user-feedback-in-controllable-and-explainable-social-recommender-systems-a-linguistic-analysis.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "t1",
+    "title": "Controllability and Explainability in a Hybrid Social Recommender System",
+    "authors": "Chun-Hua Tsai.",
+    "year": 2019,
+    "category": "theses",
+    "venue": "Ph.D. dissertation · University of Pittsburgh",
+    "files": [
+      {
+        "path": "/pubs/theses/2019-controllability-and-explainability-in-a-hybrid-social-recommender-system.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w9",
+    "title": "Designing Explanation Interfaces for Transparency and Beyond",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2019,
+    "category": "workshops",
+    "venue": "ACM IUI",
+    "files": [
+      {
+        "path": "/pubs/workshops/2019-designing-explanation-interfaces-for-transparency-and-beyond.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c25",
+    "title": "Evaluating Visual Explanations for Similarity-Based Recommendations: User Perception and Performance",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2019,
+    "category": "conferences",
+    "venue": "ACM UMAP",
+    "files": [
+      {
+        "path": "/pubs/conferences/2019-evaluating-visual-explanations-for-similarity-based-recommendations-user-perception-and-performance.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p5",
+    "title": "Expanding Controllability of Hybrid Recommender Systems: From Positive to Negative Relevance",
+    "authors": "Rahdari, B., Tsai, C. H., & Brusilovsky, P.",
+    "year": 2019,
+    "category": "posters",
+    "venue": "FLAIRS",
+    "files": [
+      {
+        "path": "/pubs/posters/2019-expanding-controllability-of-hybrid-recommender-systems-from-positive-to-negative-relevance.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c26",
+    "title": "Explaining Recommendations in an Interactive Hybrid Social Recommender",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2019,
+    "category": "conferences",
+    "venue": "ACM IUI",
+    "files": [
+      {
+        "path": "/pubs/conferences/2019-explaining-recommendations-in-an-interactive-hybrid-social-recommender.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j12",
+    "title": "Exploring Social Recommendations with Visual Diversity-Promoting Interfaces",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2019,
+    "category": "journals",
+    "venue": "ACM Transactions on Interactive Intelligent Systems",
+    "files": [
+      {
+        "path": "/pubs/journals/2019-exploring-social-recommendations-with-visual-diversity-promoting-interfaces.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w8",
+    "title": "Exploring User-Controlled Hybrid Recommendation in Conference Contexts",
+    "authors": "Tsai, C. H., Brusilovsky, P., & Rahdari, B.",
+    "year": 2019,
+    "category": "workshops",
+    "venue": "ACM IUI",
+    "files": [
+      {
+        "path": "/pubs/workshops/2019-exploring-user-controlled-hybrid-recommendation-in-conference-contexts.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "j13",
+    "title": "Relational social recommendation: Application to the academic domain",
+    "authors": "Amal, S., Tsai, C. H., Brusilovsky, P., Kuflik, T., & Minkov, E.",
+    "year": 2019,
+    "category": "journals",
+    "venue": "Expert Systems with Applications",
+    "files": [
+      {
+        "path": "/pubs/journals/2019-relational-social-recommendation-application-to-the-academic-domain.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c27",
+    "title": "Beyond the Ranked List: User-Driven Exploration and Diversification of Social Recommendation",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2018,
+    "category": "conferences",
+    "venue": "ACM IUI",
+    "files": [
+      {
+        "path": "/pubs/conferences/2018-beyond-the-ranked-list-user-driven-exploration-and-diversification-of-social-recommendation.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p6",
+    "title": "Diversity-Enhanced Recommendation Interface and Evaluation",
+    "authors": "Tsai, C. H.",
+    "year": 2018,
+    "category": "posters",
+    "venue": "ACM CHIIR",
+    "files": [
+      {
+        "path": "/pubs/posters/2018-diversity-enhanced-recommendation-interface-and-evaluation.pdf",
+        "label": "Download repository PDF"
+      },
+      {
+        "path": "/pubs/posters/2018-diversity-enhanced-recommendation-interface-and-evaluation-alternate.pdf",
+        "label": "Download conference PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p7",
+    "title": "Explaining Social Recommendations to Casual Users: Design Principles and Opportunities",
+    "authors": "Tsai, C. H. & Brusilovsky, P.",
+    "year": 2018,
+    "category": "posters",
+    "venue": "ACM IUI",
+    "files": [
+      {
+        "path": "/pubs/posters/2018-explaining-social-recommendations-to-casual-users-design-principles-and-opportunities.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p8",
+    "title": "An Interactive and Interpretable Interface for Diversity in Recommender Systems",
+    "authors": "Tsai, C. H.",
+    "year": 2017,
+    "category": "posters",
+    "venue": "ACM IUI Companion (doctoral consortium)",
+    "files": [
+      {
+        "path": "/pubs/posters/2017-an-interactive-and-interpretable-interface-for-diversity-in-recommender-systems.pdf",
+        "label": "Download repository PDF"
+      },
+      {
+        "path": "/pubs/posters/2017-an-interactive-and-interpretable-interface-for-diversity-in-recommender-systems-alternate.pdf",
+        "label": "Download conference PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w10",
+    "title": "Enhancing Recommendation Diversity Through a Dual Recommendation Interface",
+    "authors": "Tsai, C. H. & Brusilovsky, P.",
+    "year": 2017,
+    "category": "workshops",
+    "venue": "RecSys / IntRS",
+    "files": [
+      {
+        "path": "/pubs/workshops/2017-enhancing-recommendation-diversity-through-a-dual-recommendation-interface.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c28",
+    "title": "Leveraging Interfaces to Improve Recommendation Diversity",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2017,
+    "category": "conferences",
+    "venue": "ACM UMAP",
+    "files": [
+      {
+        "path": "/pubs/conferences/2017-leveraging-interfaces-to-improve-recommendation-diversity.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c29",
+    "title": "Providing Control and Transparency in a Social Recommender System for Academic Conferences",
+    "authors": "Tsai, C. H., & Brusilovsky, P.",
+    "year": 2017,
+    "category": "conferences",
+    "venue": "ACM UMAP",
+    "files": [
+      {
+        "path": "/pubs/conferences/2017-providing-control-and-transparency-in-a-social-recommender-system-for-academic-conferences.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "c30",
+    "title": "A Fuzzy-Based Personalized Recommender System for Local Businesses",
+    "authors": "Tsai, C. H.",
+    "year": 2016,
+    "category": "conferences",
+    "venue": "ACM Hypertext",
+    "files": [
+      {
+        "path": "/pubs/conferences/2016-a-fuzzy-based-personalized-recommender-system-for-local-businesses.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p9",
+    "title": "A Personalized People Recommender System Using Global Search Approach",
+    "authors": "Tsai, C. H. & Brusilovsky, P.",
+    "year": 2016,
+    "category": "posters",
+    "venue": "iConference",
+    "files": [
+      {
+        "path": "/pubs/posters/2016-a-personalized-people-recommender-system-using-global-search-approach.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "w11",
+    "title": "Tracing and Predicting Collaboration for Junior Scholars",
+    "authors": "Tsai, C. H. & Lin, Y. R.",
+    "year": 2016,
+    "category": "workshops",
+    "venue": "WWW Companion",
+    "files": [
+      {
+        "path": "/pubs/workshops/2016-tracing-and-predicting-collaboration-for-junior-scholars.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p10",
+    "title": "Fuzziness in LGBT Non-Profit ICT Use",
+    "authors": "Champagne, R., Guerra, J., Tsai, C. H., Monahan, J., & Farzan, R.",
+    "year": 2015,
+    "category": "posters",
+    "venue": "ICTD",
+    "files": [
+      {
+        "path": "/pubs/posters/2015-fuzziness-in-lgbt-non-profit-ict-use.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p11",
+    "title": "The Evolution of Scientific Productivity of Junior Scholars",
+    "authors": "Tsai, C. H. & Lin, Y. R.",
+    "year": 2015,
+    "category": "posters",
+    "venue": "iConference",
+    "files": [
+      {
+        "path": "/pubs/posters/2015-the-evolution-of-scientific-productivity-of-junior-scholars.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "p12",
+    "title": "From Media Reporting to International Relations: A Case Study of Asia-Pacific Economic Cooperation (APEC)",
+    "authors": "Tsai, C. H. & Lin, Y. R.",
+    "year": 2014,
+    "category": "posters",
+    "venue": "ACM Web Science",
+    "files": [
+      {
+        "path": "/pubs/posters/2014-from-media-reporting-to-international-relations-a-case-study-of-asia-pacific-economic-cooperation-apec.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "t2",
+    "title": "A Study of Cloud Computing SOA Service Platform Architecture and Operation Mechanism",
+    "authors": "Chun-Hua Tsai.",
+    "year": 2009,
+    "category": "theses",
+    "venue": "Master’s thesis · National Chengchi University",
+    "files": [
+      {
+        "path": "/pubs/theses/2009-a-study-of-cloud-computing-soa-service-platform-architecture-and-operation-mechanism.pdf",
+        "label": "Download PDF"
+      }
+    ],
+    "note": ""
+  }
+]
