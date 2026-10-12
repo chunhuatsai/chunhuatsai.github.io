@@ -12,7 +12,7 @@ description: "Publications by Chun-Hua Tsai, with archived PDFs of journal artic
     <p class="post-meta">{{ site.data.publications.size }} publications · Versions may differ from the published record.</p>
     <p><a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a> · <a href="https://dblp.org/pid/147/2621.html" target="_blank" rel="noopener">DBLP ↗</a> · <a href="{{ '/Professional_CV.pdf' | relative_url }}">Full CV (PDF)</a></p>
     <form class="publication-filters" id="publication-filters" hidden role="search" aria-label="Search publications">
-      <div class="search-field"><label for="paper-search">Search the archive</label><div class="search-input-wrap"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="paper-search" type="search" placeholder="Search titles, authors, or topics…"></div></div>
+      <div class="search-field"><label for="paper-search">Search the archive</label><div class="search-input-wrap"><svg width="20" height="20" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="paper-search" type="search" placeholder="Search titles, authors, or topics…"></div></div>
       <div><label for="paper-year">Year</label><select id="paper-year"><option value="">All years</option>{% assign years = site.data.publications | map: 'year' | uniq | sort | reverse %}{% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}</select></div>
       <div><label for="paper-type">Type</label><select id="paper-type"><option value="">All types</option><option value="journals">Journals</option><option value="conferences">Conferences</option><option value="workshops">Workshops</option><option value="posters">Posters &amp; abstracts</option><option value="books">Books &amp; chapters</option><option value="theses">Theses</option></select></div>
       <button type="reset" class="btn filter-reset">Clear filters</button>
@@ -51,4 +51,4 @@ description: "Publications by Chun-Hua Tsai, with archived PDFs of journal artic
   <p class="section"><a href="{{ '/' | relative_url }}">← Back to home</a></p>
 </main>
 
-<script src="{{ '/assets/publications.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/publications.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
