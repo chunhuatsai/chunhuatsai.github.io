@@ -29,9 +29,11 @@ permalink: /research/
         <p class="publication-venue">{{ paper.year }} · {{ paper.venue | escape }}</p>
         <h3><a href="{{ '/publications/' | relative_url }}#{{ paper.id }}">{{ paper.title | escape }}</a></h3>
         <p class="publication-authors">{{ paper.authors | escape }}</p>
+        <p class="paper-summary">{{ paper.summary | escape }}</p>
         <div class="paper-downloads"><a href="{{ paper.files.first.path | relative_url }}" target="_blank" rel="noopener" aria-label="View PDF: {{ paper.title | escape }} (opens in a new tab)">View PDF ↗</a></div>
       </article>
     {% endfor %}
+    <details class="related-papers"><summary>More papers in this direction</summary><ul>{% for id in direction.all_ids %}{% unless direction.ids contains id %}{% assign extra = site.data.publications | where: 'id', id | first %}<li><a href="{{ '/publications/' | relative_url }}#{{ extra.id }}">{{ extra.title | escape }}</a> ({{ extra.year }})</li>{% endunless %}{% endfor %}</ul></details>
   </section>
   {% endfor %}
   <section class="section">

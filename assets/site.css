@@ -90,3 +90,14 @@ footer { color:var(--muted); font-size:.85rem; }
 @media (max-width:767px) { .overview-grid { grid-template-columns:1fr; gap:1rem; } }
 
 .research-topic-nav { margin:1.25rem 0 1.5rem; }
+.publication-filters { display:grid; grid-template-columns:2fr 1fr 1fr auto; gap:.8rem; align-items:end; margin:1.5rem 0; }
+.publication-filters label { display:block; font-size:.85rem; font-weight:600; margin-bottom:.3rem; }
+.publication-filters input,.publication-filters select { width:100%; min-height:44px; border:1px solid #a8b9bf; border-radius:5px; padding:.5rem; background:white; color:var(--ink); }
+[hidden] { display:none!important; }
+.paper-summary { font-size:1rem; margin-top:.7rem; }
+.related-papers,.blog-background { margin-top:1.2rem; }
+.related-papers ul { margin-top:1rem; }
+.related-papers li { margin-bottom:.7rem; }
+.blog-background p:first-of-type { margin-top:1rem; }
+.appointments li { margin-bottom:.6rem; }
+@media (max-width:767px) { .publication-filters { grid-template-columns:1fr 1fr; } .publication-filters > div:first-child { grid-column:1 / -1; } }

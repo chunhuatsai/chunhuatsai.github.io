@@ -27,7 +27,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "Survey data from 146 participants representing 63 Tribal Nations connect perceived AI accountability most strongly with transparency and perceived benefits."
   },
   {
     "id": "c4",
@@ -57,7 +58,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "A multimodal framework uses caregiver videos to surface interpretable behavioral evidence for early autism screening, while showing uneven performance across behavior categories."
   },
   {
     "id": "c2",
@@ -87,7 +89,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "A study with six caregivers and five healthcare providers examines a retrieval-augmented chatbot and differing expectations for the depth and presentation of health information."
   },
   {
     "id": "b1",
@@ -117,7 +120,9 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "Participatory design with citizen-science groups identifies infrastructure needs for water-quality monitoring, including data standardization and resource sharing.",
+    "doi": "10.1145/3757470"
   },
   {
     "id": "c6",
@@ -222,12 +227,14 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "Participatory studies with Tribal Nations examine how disaster-reporting chatbots and drones can support emergency management while respecting sovereignty.",
+    "doi": "10.1145/3660643"
   },
   {
     "id": "c11",
     "title": "Deep Learning-based Text-in-Image Watermarking",
-    "authors": "Karki, B., Zhong, X., Tsai, C. H., & Huang, P. C.",
+    "authors": "Karki, B., Tsai, C. H., Huang, P.-C., & Zhong, X.",
     "year": 2024,
     "category": "conferences",
     "venue": "IEEE Multimedia Information Processing and Retrieval",
@@ -267,7 +274,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "An LLM-based recommendation architecture and an 11-participant pilot explore context-aware explanations and the information users want from a social recommender."
   },
   {
     "id": "p2",
@@ -372,7 +380,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "doi": "10.1145/3589959"
   },
   {
     "id": "c16",
@@ -417,7 +426,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "An early NutritionBot study co-designs pregnancy nutrition guidance with healthcare experts and develops a persona for users from underserved populations."
   },
   {
     "id": "c19",
@@ -447,7 +457,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "doi": "10.1145/3512944"
   },
   {
     "id": "j5",
@@ -462,7 +473,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "doi": "10.1145/3501298"
   },
   {
     "id": "b2",
@@ -477,7 +489,9 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "This chapter argues that useful AI explanations must address intelligibility, trustworthiness, and practical use alongside computational accuracy.",
+    "doi": "10.1007/978-3-031-04083-2_19"
   },
   {
     "id": "c20",
@@ -497,7 +511,7 @@
   {
     "id": "c17",
     "title": "Picturing One’s Self: Camera Use in Zoom Classes during the COVID-19 Pandemic",
-    "authors": "Li, N., Rodriguez G. R., Xu Y., Bhatt P., Nguyen H., Serpi, A., Tsai, C. H. & Carroll, J. M.",
+    "authors": "Li, N., Romera Rodriguez, G., Xu, Y., Bhatt, P., Nguyen, H. A., Serpi, A., Tsai, C. H., & Carroll, J. M.",
     "year": 2022,
     "category": "conferences",
     "venue": "ACM Learning @ Scale",
@@ -612,7 +626,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "doi": "10.1145/3476062"
   },
   {
     "id": "j8",
@@ -627,7 +642,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "doi": "10.1145/3449198"
   },
   {
     "id": "w6",
@@ -677,7 +693,7 @@
   {
     "id": "w7",
     "title": "Talk the Talk: How Human Conversational Agents Build Trust",
-    "authors": "Carroll, J. M., Tsai, C. H., & Lee S.",
+    "authors": "Carroll, J. M., Lee, S., & Tsai, C. H.",
     "year": 2020,
     "category": "workshops",
     "venue": "ACM CHI",
@@ -702,7 +718,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "summary": "A controlled study with 50 participants examines how user control and visual explanations work together in an interactive social recommender system."
   },
   {
     "id": "c24",
@@ -852,7 +869,8 @@
         "label": "View PDF"
       }
     ],
-    "note": ""
+    "note": "",
+    "doi": "10.1016/j.eswa.2019.01.061"
   },
   {
     "id": "c27",

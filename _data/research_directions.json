@@ -2,9 +2,14 @@
   {
     "title": "Conversational and Explainable AI",
     "anchor": "explainable-ai",
-    "funding": "NSF CRII \u00b7 Principal Investigator \u00b7 2022\u20132025",
+    "funding": "NSF CRII · Principal Investigator · 2022–2025",
     "text": "I investigate how explanations can become part of an interaction rather than a static account of an algorithm. My work connects transparency, user control, and conversational interfaces so people can question AI outputs, interpret recommendations, and apply explanations in their own decisions. Through studies of social recommender systems and interactive explanation interfaces, I develop design principles for human-AI collaboration that account for differences in knowledge, goals, and AI literacy.",
     "ids": [
+      "j11",
+      "c9",
+      "b2"
+    ],
+    "all_ids": [
       "j11",
       "j12",
       "c9",
@@ -15,9 +20,14 @@
   {
     "title": "Generative AI in Healthcare",
     "anchor": "healthcare-ai",
-    "funding": "NSF CAREER \u00b7 Principal Investigator \u00b7 2026\u20132031",
+    "funding": "NSF CAREER · Principal Investigator · 2026–2031",
     "text": "I translate conversational and explainable AI into healthcare systems that make information more accessible, contextual, and actionable. This direction spans nutrition and maternal health, caregiver information seeking, healthcare navigation, early autism screening, and clinical communication. I combine system design with empirical evaluation to understand how AI can support patients, caregivers, and clinicians. My CAREER program builds on this work to advance nutritional health and dietary counseling through human-AI collaboration.",
     "ids": [
+      "c15",
+      "w3",
+      "c3"
+    ],
+    "all_ids": [
       "c15",
       "c10",
       "w3",
@@ -30,9 +40,14 @@
   {
     "title": "Community-Centered HCI and Accountable AI",
     "anchor": "community-ai",
-    "funding": "NSF DASS \u00b7 Co-Investigator \u00b7 2023\u20132027",
+    "funding": "NSF DASS · Co-Investigator · 2023–2027",
     "text": "I study how communities can help shape the intelligent systems that affect them. Working across civic, environmental, educational, and emergency-management contexts, I use participatory research and co-design to connect technical choices with community knowledge, institutional responsibilities, and local needs. A central focus is accountable AI designed with Tribal Nations, including disaster-management systems, collaborative governance, and the preservation of Indigenous culture and sovereignty. Related work examines citizen science, mutual aid, and collective responses to public crises.",
     "ids": [
+      "j2",
+      "c1",
+      "j1"
+    ],
+    "all_ids": [
       "j2",
       "c1",
       "c2",
