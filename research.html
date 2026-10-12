@@ -7,14 +7,14 @@ permalink: /research/
   <section class="section">
     <p class="eyebrow">Human-centered AI</p>
     <h1>Research</h1>
+
+    <p>My research asks how AI systems can be designed so people can understand them, trust them appropriately, and use them to improve individual, organizational, and community outcomes. I bring an HCI perspective to this question, connecting the design of intelligent systems with the experiences and needs of the people who use and are affected by them.</p>
+    <p>My program develops through three connected directions: foundational work on conversational explanation, translation into healthcare, and accountable systems designed with communities. Together, they connect interaction design with clinical and community contexts, while creating opportunities for students to contribute to research, publications, and public engagement.</p>
     <nav class="archive-nav research-topic-nav" aria-label="Research directions">
       {% for direction in site.data.research_directions %}
         <a href="#{{ direction.anchor }}">{{ direction.title | escape }}</a>
       {% endfor %}
     </nav>
-
-    <p>My research asks how AI systems can be designed so people can understand them, trust them appropriately, and use them to improve individual, organizational, and community outcomes. I bring an HCI perspective to this question, connecting the design of intelligent systems with the experiences and needs of the people who use and are affected by them.</p>
-    <p>My program develops through three connected directions: foundational work on conversational explanation, translation into healthcare, and accountable systems designed with communities. Together, they connect interaction design with clinical and community contexts, while creating opportunities for students to contribute to research, publications, and public engagement.</p>
   </section>
   {% for direction in site.data.research_directions %}
   <section class="section" id="{{ direction.anchor }}">
