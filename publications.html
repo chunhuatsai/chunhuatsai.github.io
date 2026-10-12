@@ -8,7 +8,7 @@ description: "Publications by Chun-Hua Tsai, with archived PDFs of journal artic
   <section class="section">
     <p class="eyebrow">Research archive</p>
     <h1>Publications &amp; Papers</h1>
-    <p>Research on human-centered AI, health informatics, recommender systems, and community collaboration. Browse by publication type and download the archived PDFs below.</p>
+    <p>Research on human-centered AI, health informatics, recommender systems, and community collaboration. Browse by publication type and view the archived PDFs below.</p>
     <p class="post-meta">{{ site.data.publications.size }} publications · Versions may differ from the published record.</p>
     <p><a href="https://scholar.google.com/citations?user=uLP0nEwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a> · <a href="https://dblp.org/pid/147/2621.html" target="_blank" rel="noopener">DBLP ↗</a> · <a href="{{ '/Professional_CV.pdf' | relative_url }}">Full CV (PDF)</a></p>
     <nav class="archive-nav" aria-label="Publication categories">
@@ -31,7 +31,7 @@ description: "Publications by Chun-Hua Tsai, with archived PDFs of journal artic
           {% if paper.note != '' %}<p class="archive-note">{{ paper.note | escape }}</p>{% endif %}
           <div class="paper-downloads">
             {% for file in paper.files %}
-              <a href="{{ file.path | relative_url }}" download aria-label="{{ file.label | escape }}: {{ paper.title | escape }}">{{ file.label | escape }} ↓</a>
+              <a href="{{ file.path | relative_url }}" target="_blank" rel="noopener" aria-label="{{ file.label | escape }}: {{ paper.title | escape }} (opens in a new tab)">{{ file.label | escape }} ↗</a>
             {% endfor %}
           </div>
         </article>

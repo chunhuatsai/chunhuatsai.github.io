@@ -88,3 +88,5 @@ footer { color:var(--muted); font-size:.85rem; }
 .overview-card p { font-size:1rem; margin-bottom:0; }
 .navbar-nav .nav-link { font-size:.9rem; }
 @media (max-width:767px) { .overview-grid { grid-template-columns:1fr; gap:1rem; } }
+
+.research-topic-nav { margin:1.25rem 0 1.5rem; }
