@@ -1,7 +1,7 @@
 ---
 title: "How This Academic Website Is Organized"
 date: 2026-10-12 00:00:00 -0600
-categories: [reflection, website]
+categories: [reflection]
 tags: [academic-website, research-communication, design]
 description: "A look at the ideas and technical structure behind my academic website, from research directions and archived papers to a space for public reflection."
 excerpt: "An academic website should help readers understand a research program, find its evidence, and follow the ideas still taking shape. Here is how I have organized this space."

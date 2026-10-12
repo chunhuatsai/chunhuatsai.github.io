@@ -156,3 +156,10 @@ footer.bg-light { background:var(--wash)!important; }
 .blog-figure { margin:2rem 0; }
 .blog-figure img { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:10px; }
 .blog-figure figcaption { color:var(--muted); font-size:.85rem; line-height:1.5; margin-top:.7rem; }
+
+.blog-filters { grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) auto; }
+.blog-filters .search-field { grid-column:1 / -1; }
+.post-tags { display:flex; flex-wrap:wrap; gap:.5rem; padding:0; margin:.75rem 0 1rem; list-style:none; }
+.post-tags a { display:inline-block; padding:.3rem .7rem; border:1px solid var(--line); background:var(--wash); border-radius:999px; font-size:.8rem; text-decoration:none; }
+.post-tags a:hover { background:#E8EEF9; color:var(--hover); border-color:var(--accent); }
+@media (max-width:767px) { .blog-filters { grid-template-columns:1fr 1fr; } .blog-filters .filter-reset { grid-column:auto; align-self:end; } }
