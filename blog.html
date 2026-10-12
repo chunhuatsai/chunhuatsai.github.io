@@ -16,9 +16,16 @@ permalink: /blog/
     <h2 class="mt-4">Notes &amp; reflections</h2>
 
     {% if site.posts.size > 0 %}
+      <form class="publication-filters" id="blog-filters" hidden role="search" aria-label="Search blog posts">
+        <div class="search-field"><label for="blog-search">Search the notebook</label><div class="search-input-wrap"><svg width="20" height="20" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="blog-search" type="search" placeholder="Search articles or ideas…"></div></div>
+        <div><label for="blog-year">Year</label><select id="blog-year"><option value="">All years</option>{% assign years = '' | split: ',' %}{% for post in site.posts %}{% assign year = post.date | date: '%Y' %}{% unless years contains year %}<option value="{{ year }}">{{ year }}</option>{% assign years = years | push: year %}{% endunless %}{% endfor %}</select></div>
+        <div><label for="blog-topic">Topic</label><select id="blog-topic"><option value="">All topics</option>{% assign topics = site.categories | sort %}{% for topic in topics %}<option value="{{ topic[0] | escape }}">{{ topic[0] | capitalize | escape }}</option>{% endfor %}</select></div>
+        <button type="reset" class="btn filter-reset">Clear filters</button>
+      </form>
+      <p id="blog-filter-status" class="post-meta" role="status" hidden></p>
       <div class="post-list">
         {% for post in site.posts %}
-          <article class="post-list-item">
+          <article class="post-list-item" data-year="{{ post.date | date: '%Y' }}" data-topics="{{ post.categories | jsonify | escape }}" data-search="{{ post.title | append: ' ' | append: post.content | strip_html | normalize_whitespace | escape }} {{ post.tags | join: ' ' | escape }}">
             <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
             <p class="post-meta">
               {{ post.date | date: "%B %-d, %Y" }}
@@ -36,3 +43,5 @@ permalink: /blog/
     {% endif %}
   </section>
 </main>
+
+<script src="{{ '/assets/blog.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

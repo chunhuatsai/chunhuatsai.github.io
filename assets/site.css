@@ -152,3 +152,7 @@ footer { color:var(--muted); font-size:.85rem; }
 .archive-nav a:focus-visible { outline-color:var(--highlight); }
 .research-direction { border-left-color:var(--highlight); }
 footer.bg-light { background:var(--wash)!important; }
+.blog-post { margin-inline:auto; }
+.blog-figure { margin:2rem 0; }
+.blog-figure img { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:10px; }
+.blog-figure figcaption { color:var(--muted); font-size:.85rem; line-height:1.5; margin-top:.7rem; }
