@@ -3,27 +3,34 @@ layout: default
 title: "Research"
 permalink: /research/
 ---
-<main class="container " id="main-content">
-  <section class="section" id="research">
+<main class="container reading-page" id="main-content">
+  <section class="section">
+    <p class="eyebrow">Human-centered AI</p>
     <h1>Research</h1>
-    <p>My areas of specialization include HCI, health informatics, recommender systems, social computing, intelligent user interfaces, and explainable artificial intelligence.</p>
-    <div class="research-grid">
-      <article class="research-card"><span class="theme-number">01</span><h3>AI for health</h3><p>Nutrition chatbots, personalized dietary guidance, and AI support for caregivers.</p><a href="#career-project">Featured: NSF CAREER project →</a></article>
-      <article class="research-card"><span class="theme-number">02</span><h3>Accountable AI</h3><p>Co-design with Indigenous communities and accountability in tribal emergency management.</p><a href="{{ '/publications/' | relative_url }}">Explore community research →</a></article>
-      <article class="research-card"><span class="theme-number">03</span><h3>Explainable recommendations</h3><p>Conversational explanations, user control, and diversity in social recommender systems.</p><a href="{{ '/publications/' | relative_url }}">Explore recommendation research →</a></article>
-    </div>
-    <article class="featured-project" id="career-project">
-      <p class="eyebrow">Featured project · NSF CAREER</p>
-      <h3>Nutrition Chatbots</h3>
-      <p>Advancing Nutritional Health and Dietary Counseling Through Human-AI Collaboration.</p>
-      <p class="project-meta">Principal Investigator · 2026–2031 · $679,084</p>
-    </article>
-    <h2 class="mt-4">Other selected funded projects</h2>
-    <ul class="detail-list">
-      <li><strong>NSF DASS: A Multi-level Collaborative Design Framework for Cross-sovereignty Software Accountability.</strong><br>Co-Investigator; PI: Yu-Che Chen · 2023–2027 · $749,232 total award.</li>
-      <li><strong>NSF CRII: HCC: Empowering Human-AI Collaboration through Conversational Explanations.</strong><br>Principal Investigator · 2022–2025 · $182,293 total, including an NSF REU supplement.</li>
-      <li><strong>Predicting Newborn Body Composition Using Multimodal AI Approach.</strong><br>Principal Investigator; Co-PIs: Ann Anderson Berry and Melissa Thoene · Child Health Research Institute · 2025–2026 · $50,000.</li>
-    </ul>
-    
+    <p>My research asks how AI systems can be designed so people can understand them, trust them appropriately, and use them to improve individual, organizational, and community outcomes. I bring an HCI perspective to this question, connecting the design of intelligent systems with the experiences and needs of the people who use and are affected by them.</p>
+    <p>My program develops through three connected directions: foundational work on conversational explanation, translation into healthcare, and accountable systems designed with communities. Together, they connect interaction design with clinical and community contexts, while creating opportunities for students to contribute to research, publications, and public engagement.</p>
+  </section>
+  {% for direction in site.data.research_directions %}
+  <section class="section" id="{{ direction.anchor }}">
+    <p class="eyebrow">Research direction {{ forloop.index }}</p>
+    <h2>{{ direction.title }}</h2>
+    <p>{{ direction.text }}</p>
+    <p class="project-meta">{{ direction.funding }}</p>
+    <h3 class="mt-4">Related papers</h3>
+    {% for id in direction.ids %}
+      {% assign paper = site.data.publications | where: 'id', id | first %}
+      <article class="publication">
+        <p class="publication-venue">{{ paper.year }} · {{ paper.venue | escape }}</p>
+        <h3><a href="{{ '/publications/' | relative_url }}#{{ paper.id }}">{{ paper.title | escape }}</a></h3>
+        <p class="publication-authors">{{ paper.authors | escape }}</p>
+        <div class="paper-downloads"><a href="{{ paper.files.first.path | relative_url }}" download aria-label="Download PDF: {{ paper.title | escape }}">Download PDF ↓</a></div>
+      </article>
+    {% endfor %}
+  </section>
+  {% endfor %}
+  <section class="section">
+    <h2>Research recognition</h2>
+    <ul><li>NSF CAREER Award, 2026–2031</li><li>Best Paper Award, ACM Learning @ Scale, 2022</li><li>Best Paper Award, International Conference on Communities and Technologies, 2021</li></ul>
+    <a href="{{ '/publications/' | relative_url }}">Browse all publications and archived papers →</a>
   </section>
 </main>
